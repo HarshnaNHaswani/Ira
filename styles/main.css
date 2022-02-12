@@ -1,0 +1,21 @@
+/* settings global settings, brand colors */
+@import url(01-settings/brand.css);
+
+/* tools- functions, mixins, tools */
+
+/* ground-zero styles */
+@import url(03-generic/destyle.css);
+
+/* elements- html elements direct styling */
+
+@import url(04-elements/elements.css);
+/* oocss, design patterns, no cosmetics, using classes, Agnostically named e.g. .ui-list */
+
+@import url(05-objects/logo.css);
+@import url(05-objects/nav.css);
+@import url(05-objects/page.css);
+@import url(05-objects/landing.css);
+
+/* fully designed components/pieces of UI using classes explicitly named e.g. .products-list*/
+@import url(06-components/brand-theme.css);
+/* utilities, overrides, helper */

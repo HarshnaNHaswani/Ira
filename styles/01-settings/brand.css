@@ -1,0 +1,31 @@
+/* primary, secondary, accent... */
+:root{
+  --color-primary: #2e2e2e;
+  --color-secondary: #646668;
+  --color-accent: #dd0f4d;
+  --color-text: #424242;
+  --color-background: #c0b7b7;
+}
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.outline-primary{
+  border: 1px solid var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.outline-secondary {
+  border: 1px solid var(--color-secondary);
+} 
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+.outline-accent {
+  border: 1px solid var(--color-accent);
+} 
+.bg-primary{
+  color: var(--color-text);
+}

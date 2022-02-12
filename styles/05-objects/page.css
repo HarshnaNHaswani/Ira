@@ -1,0 +1,17 @@
+.about, 
+.installation, 
+.docs {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.main-content,
+.main-content {
+  min-width: 45ch;
+  max-width: 65ch;
+}
+
+.nav-side {
+  position: fixed;
+  left: 0;
+}

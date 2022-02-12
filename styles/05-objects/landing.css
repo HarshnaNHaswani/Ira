@@ -1,0 +1,25 @@
+body{
+  height: 100vh;
+}
+.landing .nav-main{
+  min-height: 100vh;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.landing .nav-main ul{
+  margin: 10vh 0;
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.landing .logo img{
+  max-width: 100%;
+  margin: 5vh 0;
+}
+.landing header,
+.landing footer{
+  display: none;
+}
