@@ -8,13 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Harshna Haswani">
     <meta name="description" content="Ira is the component library for scalable, modern, and beautiful UI.">
-    <title> Ira — About</title>
+    <title> Ira — Ira</title>
 
     <link rel="stylesheet" href="/styles/main.css">
 
 </head>
 
-<body class="about ">
+<body class="landing ">
 
 
     <a class="logo" href="/">
@@ -22,6 +22,10 @@
     </a>
     <nav class="nav-main">
         <ul>
+
+
+
+
             <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item"> <a
                         href=/pages/docs.html>Documentation </a> </li> <li class="nav-list-item"> <a
                             href=/pages/installation.html>Installation </a> </li> <li class="nav-list-item"> <a
@@ -32,18 +36,12 @@
 
 
     <header>
-        <h1 clss="page-title">About</h1>
+        <h1 clss="page-title">Ira</h1>
     </header>
 
 
 
-    <main class="main-content">
-        <p>
-            Ira is the component library for scalable, modern, and beautiful UI. Ira is developed with the objective to
-            cater to a wide range of audience. The components can be used directly or suitable customizations can be
-            made. Ira is based on ITCSS.
-        </p>
-    </main>
+
 
 
 
