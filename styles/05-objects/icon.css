@@ -1,0 +1,3 @@
+.icon{
+  width: clamp(1ch, 2ch, 3ch);
+}

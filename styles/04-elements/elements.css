@@ -35,3 +35,13 @@ iframe{
   height: clamp(300px, 400px, 500px);
   width: 150%
 }
+
+button{
+  background-color: none;
+  border: none;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,163 @@
+/* .cards, */
+
+.card-container,
+.card-primary-content,
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actions {
+  flex-wrap: nowrap;
+}
+
+.cards {
+  padding: 10px;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+.card-container {
+  background-color: white;
+  box-shadow: 0 0 5px rgb(58, 57, 58);
+  row-gap: 5px;
+  width: 400px;
+  flex-direction: column;
+  border-radius: 15px 15px 20px 20px;
+}
+
+.card-primary-content {
+  flex-direction: column;
+}
+
+.card-primary-content:hover {
+  filter: grayscale(0.1) invert(0.1);
+  background-color: #fff;
+  backdrop-filter: contrast(100%);
+  transform: 0.3s;
+}
+
+.card-header {
+  margin: 1rem 0 0.5rem
+}
+
+.card-header,
+.card-body {
+  padding: 0 15px;
+}
+
+.decription {
+  margin: 0.5rem 0;
+}
+
+.media img,
+.card-primary-content:hover {
+  max-width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.actions {
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin: 2ch;
+}
+
+
+.actions button {
+  margin: 0 10px;
+  min-width: 50px;
+  min-height: 50px;
+  border: none;
+}
+
+
+
+
+
+.like {
+  font-size: 25px;
+
+}
+
+.share {
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
+.card-style-2 .card-primary-content {
+  position: relative;
+}
+
+.card-style-2 .card-header {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-style-3 .card-header,
+.card-style-7 .card-header {
+  order: -1;
+}
+
+.card-style-3 .media img,
+.card-style-7 .media img {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card-style-4 .actions {
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.card-style-5 .actions {
+  justify-content: flex-end;
+}
+
+.card-style-4 .action-icons,
+.card-style-5 .action-buttons {
+  display: none;
+}
+
+.card-style-6 .card-primary-content {
+  flex-flow: row nowrap;
+}
+
+.card-style-6 .card-body {
+  display: none;
+}
+
+.card-style-6 .media img {
+  border-top-right-radius: 0;
+
+}
+
+.card-style-6 .media {
+  max-width: 40%;
+}
+
+.card-style-7 .card-header {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 5px
+}
+
+.card-style-7 p[role="doc-subtitle"] {
+  font-weight: 100;
+}
+
+.thumbnail img {
+  max-width: 3%;
+}
+
+.card-style-7 .thumbnail {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.actions button:hover,
+.action-button {
+  filter: hue-rotate(20deg);
+}
