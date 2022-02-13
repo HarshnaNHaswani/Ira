@@ -1,0 +1,25 @@
+.avatar{
+  aspect-ratio: 1/1;
+  position: relative;
+}
+.avatar-status{
+  aspect-ratio: 1/1;
+  border: 3px solid;
+  position: relative;
+}
+.avatar-xs{
+  width: 2rem;
+  height: 2rem;
+}
+.avatar-sm{
+  width: 4rem;
+  height: 4rem;
+}
+.avatar-lg{
+  width: 8rem;
+  height: 8rem;
+}
+.avatar-md{
+  width: 6rem;
+  height:6rem;
+}

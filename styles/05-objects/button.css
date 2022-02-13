@@ -1,0 +1,15 @@
+.btn{
+  margin: 2ch;
+  padding: 2ch 5ch;
+  min-width: 7rem;
+  min-height: 2rem;
+  border-radius: 5px;
+  font-variant: small-caps;
+  letter-spacing: 0.2ch;
+}
+
+.btn:hover{
+  filter: hue-rotate(30deg);
+  transform: scale(1.1) ;
+  transition-duration: 0.5s;
+}
