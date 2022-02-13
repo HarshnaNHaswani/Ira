@@ -16,6 +16,7 @@
 @import url(05-objects/page.css);
 @import url(05-objects/landing.css);
 @import url(05-objects/avatar.css);
+@import url(05-objects/alert.css);
 @import url(05-objects/badge.css);
 @import url(05-objects/button.css);
 
@@ -25,3 +26,4 @@
 /* utilities, overrides, helper */
 @import url(99-trumps/status.css);
 @import url(99-trumps/utils.css);
+@import url(99-trumps/text-utils.css);

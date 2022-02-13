@@ -1,4 +1,4 @@
-/* color for status - border/text */
+/* color for status - text */
 .status-success {
   color: #30a530;
 }
@@ -38,6 +38,46 @@
 .status-inactive {
   color: #615f5f;
 }
+/* color for status - border */
+.status-success-outline {
+  border: 2px solid #30a530;
+}
+
+.status-error-outline {
+  border: 2px solid #cc0f0f;
+}
+
+.status-warning-outline {
+  border: 2px solid #dbca2d;
+}
+
+.status-info-outline {
+  border: 2px solid #669beb;
+}
+
+.status-plain-outline {
+  border: 2px solid #808080;
+}
+
+.status-active-outline {
+  border: 2px solid #04ad04;
+}
+
+.status-busy-outline {
+  border: 2px solid #aa2b2b;
+}
+
+.status-idle-outline {
+  border: 2px solid #d68f0a;
+}
+
+.status-available-outline {
+  border: 2px solid #5686c5;
+}
+
+.status-inactive-outline {
+  border: 2px solid #615f5f;
+}
 
 
 /* background status */
@@ -53,7 +93,7 @@
 }
 
 .status-warning-bg {
-  background-color: #c2b329;
+  background-color: #c2ab29;
   color: #2e2d2d;
 }
 
