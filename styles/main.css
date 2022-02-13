@@ -17,8 +17,11 @@
 @import url(05-objects/landing.css);
 @import url(05-objects/avatar.css);
 @import url(05-objects/badge.css);
+@import url(05-objects/button.css);
 
 /* fully designed components/pieces of UI using classes explicitly named e.g. .products-list*/
 @import url(06-components/brand-theme.css);
-@import url(06-components/status.css);
+
 /* utilities, overrides, helper */
+@import url(99-trumps/status.css);
+@import url(99-trumps/utils.css);

@@ -1,3 +1,4 @@
+/* color for status - border/text */
 .status-success {
   color: #30a530;
 }
@@ -39,9 +40,7 @@
 }
 
 
-
-
-
+/* background status */
 
 .status-success-bg {
   background-color: #30a530;
