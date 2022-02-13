@@ -64,22 +64,11 @@
   margin: 2ch;
 }
 
-
 .actions button {
   margin: 0 10px;
   min-width: 50px;
   min-height: 50px;
   border: none;
-}
-
-.like {
-  font-size: 25px;
-
-}
-
-.share {
-  display: inline-block;
-  transform: rotate(90deg);
 }
 
 .card-title-float .card-primary-content {
