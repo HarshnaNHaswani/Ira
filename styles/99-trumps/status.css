@@ -1,133 +1,160 @@
 /* color for status - text */
+:root{
+  --color-status-success: #30a530;
+  --color-status-error: #cc0f0f;
+  --color-status-warning: #c2ab29;
+  --color-status-info: #669beb;
+  --color-status-plain: #808080;
+
+  --color-inverse-status-success: #111010;
+  --color-inverse-status-error: #fdf9f9;
+  --color-inverse-status-warning: #2e2d2d;
+  --color-inverse-status-info: #202020;
+  --color-inverse-status-plain: #000000;
+
+  --color-status-active: #04ad04;
+  --color-status-busy: #aa2b2b;
+  --color-status-idle: #d68f0a;
+  --color-status-available: #5686c5;
+  --color-status-inactive: #615f5f;
+
+  --color-inverse-status-active: #111010;
+  --color-inverse-status-busy: #fdf9f9;
+  --color-inverse-status-idle: #242424;
+  --color-inverse-status-available: #0a0a0a;
+  --color-inverse-status-inactive: #ffffff;
+}
+
+
 .status-success {
-  color: #30a530;
+  color: var(--color-status-success);
 }
 
 .status-error {
-  color: #cc0f0f;
+  color: var(--color-status-error);
 }
 
 .status-warning {
-  color: #dbca2d;
+  color: var(--color-status-warning);
 }
 
 .status-info {
-  color: #669beb;
+  color: var(--color-status-info);
 }
 
 .status-plain {
-  color: #808080;
+  color: var(--color-status-plain);
 }
 
 .status-active {
-  color: #04ad04;
+  color: var(--color-status-active);
 }
 
 .status-busy {
-  color: #aa2b2b;
+  color: var(--color-status-busy);
 }
 
 .status-idle {
-  color: #d68f0a;
+  color: var(--color-status-idle);
 }
 
 .status-available {
-  color: #5686c5;
+  color: var(--color-status-available);
 }
 
 .status-inactive {
-  color: #615f5f;
+  color: var(--color-status-inactive);
 }
 /* color for status - border */
 .status-success-outline {
-  border: 2px solid #30a530;
+  border: 2px solid var(--color-status-success);
 }
 
 .status-error-outline {
-  border: 2px solid #cc0f0f;
+  border: 2px solid var(--color-status-error);
 }
 
 .status-warning-outline {
-  border: 2px solid #dbca2d;
+  border: 2px solid var(--color-status-warning);
 }
 
 .status-info-outline {
-  border: 2px solid #669beb;
+  border: 2px solid var(--color-status-info);
 }
 
 .status-plain-outline {
-  border: 2px solid #808080;
+  border: 2px solid var(--color-status-plain);
 }
 
 .status-active-outline {
-  border: 2px solid #04ad04;
+  border: 2px solid var(--color-status-active);
 }
 
 .status-busy-outline {
-  border: 2px solid #aa2b2b;
+  border: 2px solid var(--color-status-busy);
 }
 
 .status-idle-outline {
-  border: 2px solid #d68f0a;
+  border: 2px solid var(--color-status-idle);
 }
 
 .status-available-outline {
-  border: 2px solid #5686c5;
+  border: 2px solid var(--color-status-available);
 }
 
 .status-inactive-outline {
-  border: 2px solid #615f5f;
+  border: 2px solid var(--color-status-inactive);
 }
 
 
 /* background status */
 
 .status-success-bg {
-  background-color: #30a530;
-  color: #111010;
+  background-color: var(--color-status-success);
+  color: var(--color-inverse-status-success);
 }
 
 .status-error-bg {
-  background-color: #cc0f0f;
-  color: #fdf9f9;
+  background-color: var(--color-status-error);
+  color: var(--color-inverse-status-error);
 }
 
 .status-warning-bg {
-  background-color: #c2ab29;
-  color: #2e2d2d;
+  background-color: var(--color-status-warning);
+  color: var(--color-inverse-status-warning);
 }
 
 .status-info-bg {
-  background-color: #669beb;
-  color: #202020;
+  background-color: var(--color-status-info);
+  color: var(--color-inverse-status-info);
 }
 
 .status-plain-bg {
-  background-color: #808080;
-  color: #000000;
+  background-color: var(--color-status-plain);
+  color: var(--color-inverse-status-plain);
 }
 
 .status-active-bg {
-  background-color: #04ad04;
-  color: #111010;
+  background-color: var(--color-status-active);
+  color: var(--color-inverse-status-active);
 }
 
 .status-busy-bg {
-  background-color: #aa2b2b;
-  color: #fdf9f9;
+  background-color: var(--color-status-busy);
+  color: var(--color-inverse-status-busy);
 }
 
 .status-idle-bg {
-  background-color: #d68f0a;
-  color: #2e2d2d;
+  background-color: var(--color-status-idle);
+  color: var(--color-inverse-status-idle);
 }
 
 .status-available-bg {
-  background-color: #5686c5;
-  color: #202020;
+  background-color: var(--color-status-available);
+  color: var(--color-inverse-status-available);
 }
 
 .status-inactive-bg {
-  background-color: #615f5f;
-  color: #000000;
+  background-color: var(--color-status-inactive);
+  color: var(--color-inverse-status-inactive)
 }

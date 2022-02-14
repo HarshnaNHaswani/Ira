@@ -1,14 +1,17 @@
 /* primary, secondary, accent... */
 :root{
   --color-primary: #2e2e2e;
+  --color-primary-inverse: #c0b7b7;
   --color-secondary: #646668;
+  --color-secondary-inverse: #ffffff;
   --color-accent: #c9003c;
+  --color-accent-inverse: #ffffff;
   --color-text: #424242;
   --color-background: #c0b7b7;
 }
 .bg-primary {
   background-color: var(--color-primary);
-  color: #c0b7b7;
+  color: var(--color-primary-inverse);
 }
 .outline-primary{
   border: 2px solid var(--color-primary);
@@ -16,7 +19,7 @@
 
 .bg-secondary {
   background-color: var(--color-secondary);
-  color: #ffffff;
+  color: var(--color-secondary-inverse);
 }
 .outline-secondary {
   border: 2px solid var(--color-secondary);
@@ -24,7 +27,7 @@
 
 .bg-accent {
   background-color: var(--color-accent);
-  color: #ffffff;
+  color: var(--color-accent-inverse);
 }
 .outline-accent {
   border: 2px solid var(--color-accent);
