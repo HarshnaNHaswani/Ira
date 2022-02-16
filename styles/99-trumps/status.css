@@ -1,5 +1,5 @@
 /* color for status - text */
-:root{
+:root {
   --color-status-success: #30a530;
   --color-status-error: #cc0f0f;
   --color-status-warning: #c2ab29;
@@ -65,6 +65,7 @@
 .status-inactive {
   color: var(--color-status-inactive);
 }
+
 /* color for status - border */
 .status-success-outline {
   border: 2px solid var(--color-status-success);

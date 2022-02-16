@@ -1,5 +1,4 @@
-
-.form{
+.form {
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 30px var(--color-shadow);
@@ -10,20 +9,21 @@
   margin: 0;
 }
 
-.form-item{
+.form-item {
   display: flex;
   flex-direction: column;
   margin: 0.8ch 2ch;
   padding: 0.5em;
 }
 
-.form-input{
+.form-input {
   width: 100%;
 }
+
 .form,
 .form-input,
 .form-input::after,
-.form-input:before{
+.form-input:before {
   background-color: var(--color-background);
 }
 
@@ -32,37 +32,38 @@
 }
 
 .form-input,
-.form-btn{
+.form-btn {
   font-family: inherit;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 10px;
   letter-spacing: 1.2px;
-  border: 0; 
+  border: 0;
   outline: 0;
   appearance: none;
 }
 
-.form-input{
+.form-input {
   padding: 1.5em;
 }
 
-.form-input:focus::placeholder{
+.form-input:focus::placeholder {
   color: var(--color-primary);
   opacity: 0.85;
 }
 
-.form-item{
+.form-item {
   border-width: 0 0 1px 0;
 }
 
-.form-item:last-child{
+.form-item:last-child {
   border-bottom: 0;
 }
 
-.form-btn{
+.form-btn {
   padding: 1.25em;
 }
+
 .form-item.status-active-outline,
 .form-item.status-inactive-outline,
 .form-item.status-available-outline,
@@ -77,7 +78,7 @@
 }
 
 .form-item input[type="radio"],
-.form-item input[type="checkbox"]{
+.form-item input[type="checkbox"] {
   accent-color: var(--color-primary);
   cursor: pointer;
   width: clamp(1.5ch, 2ch, 3.5ch);
@@ -85,11 +86,12 @@
 }
 
 .form-item legend,
-.form-item > label,
+.form-item>label,
 .form-item p,
 .form-item::placeholder {
   opacity: 0.55;
 }
+
 .form-item input[type=range] {
   appearance: none;
   outline: none;
@@ -123,9 +125,9 @@
   border-radius: 3px;
   height: 5px;
   -moz-appearance: none;
-} 
+}
 
-.form-item input[type=range]::-ms-track{
+.form-item input[type=range]::-ms-track {
   background: var(--color-status-plain);
   border-radius: 3px;
   height: 5px;
@@ -139,7 +141,7 @@
   -webkit-appearance: none;
 }
 
-.form-item input[type=range]::-moz-range-thumb{
+.form-item input[type=range]::-moz-range-thumb {
   border: none;
   box-shadow: none;
   height: 1.25rem;
@@ -151,7 +153,7 @@
   -moz-appearance: none;
 }
 
-.form-item input[type=range]::-ms-thumb{
+.form-item input[type=range]::-ms-thumb {
   border: none;
   box-shadow: none;
   height: 1.25rem;
@@ -183,13 +185,14 @@
 
 
 .form-item legend,
-.form-item label{
+.form-item label {
   text-transform: uppercase;
   letter-spacing: 1.25px;
   font-size: 0.8em;
   font-weight: 300;
 }
-.form-item p{
+
+.form-item p {
   margin: 1ch 5ch;
   font-size: 0.8em;
   display: grid;
