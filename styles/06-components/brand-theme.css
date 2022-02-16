@@ -1,9 +1,28 @@
-body{
+body {
   color: var(--color-text);
   background-color: var(--color-background);
 }
 
-.nav-main{
+.nav-main {
   color: var(--color-background)
 }
 
+.heading-sm,
+.heading-lg,
+.heading-xl,
+.heading-md,
+.heading-xs,
+.text-xl,
+.text-lg,
+.text-md,
+.text-sm,
+.text-xs {
+  line-height: 1.75;
+  text-align: center;
+}
+
+.display {
+  min-height: 400px;
+  padding: 0 2ch;
+  border: 1px solid black;
+}

@@ -1,0 +1,220 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 30px var(--color-shadow);
+  overflow: hidden;
+  min-width: 45ch;
+  max-width: 65ch;
+  border-radius: 1.25rem;
+  margin: 0;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8ch 2ch;
+  padding: 0.5em;
+}
+
+.form-input {
+  width: 100%;
+}
+
+.form,
+.form-input,
+.form-input::after,
+.form-input:before {
+  background-color: var(--color-background);
+}
+
+.form-input:not(:placeholder-shown) {
+  background-color: inherit;
+}
+
+.form-input,
+.form-btn {
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  border: 0;
+  outline: 0;
+  appearance: none;
+}
+
+.form-input {
+  padding: 1.5em;
+}
+
+.form-input:focus::placeholder {
+  color: var(--color-primary);
+  opacity: 0.85;
+}
+
+.form-item {
+  border-width: 0 0 1px 0;
+}
+
+.form-item:last-child {
+  border-bottom: 0;
+}
+
+.form-btn {
+  padding: 1.25em;
+}
+
+.form-item.status-active-outline,
+.form-item.status-inactive-outline,
+.form-item.status-available-outline,
+.form-item.status-busy-outline,
+.form-item.status-idle-outline,
+.form-item.status-error-outline,
+.form-item.status-warning-outline,
+.form-item.status-info-outline,
+.form-item.status-plain-outline,
+.form-item.status-success-outline {
+  border-width: 0 0 1px 0;
+}
+
+.form-item input[type="radio"],
+.form-item input[type="checkbox"] {
+  accent-color: var(--color-primary);
+  cursor: pointer;
+  width: clamp(1.5ch, 2ch, 3.5ch);
+  margin-left: 5ch;
+}
+
+.form-item legend,
+.form-item>label,
+.form-item p,
+.form-item::placeholder {
+  opacity: 0.55;
+}
+
+.form-item input[type=range] {
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+
+  display: block;
+  position: relative;
+}
+
+.form-item input[type=range]::before,
+.form-item input[type=range]::after {
+  display: inline-block;
+  position: absolute;
+  color: var(--color-status-plain);
+}
+
+.form-item input[type=range]::before {
+  content: attr(min);
+  left: 0;
+  transform: translate(calc(-100% - 5px))
+}
+
+.form-item input[type=range]::after {
+  content: attr(max);
+  right: 0;
+  transform: translate(calc(100% + 5px))
+}
+
+.form-item input[type=range]::-moz-range-track {
+  background: var(--color-status-plain);
+  border-radius: 3px;
+  height: 5px;
+  -moz-appearance: none;
+}
+
+.form-item input[type=range]::-ms-track {
+  background: var(--color-status-plain);
+  border-radius: 3px;
+  height: 5px;
+  -ms-progress-appearance: none;
+}
+
+.form-item input[type=range]::-webkit-slider-runnable-track {
+  background: var(--color-status-plain);
+  border-radius: 3px;
+  height: 5px;
+  -webkit-appearance: none;
+}
+
+.form-item input[type=range]::-moz-range-thumb {
+  border: none;
+  box-shadow: none;
+  height: 1.25rem;
+  width: 6px;
+  border-radius: 0.75rem;
+  background: var(--color-primary);
+  margin: -7px 0 0 0;
+  outline: none;
+  -moz-appearance: none;
+}
+
+.form-item input[type=range]::-ms-thumb {
+  border: none;
+  box-shadow: none;
+  height: 1.25rem;
+  width: 6px;
+  border-radius: 0.75rem;
+  background: var(--color-primary);
+  -ms-appearance: none;
+  margin: -7px 0 0 0;
+  -ms-progress-appearance: none;
+}
+
+.form-item input[type=range]::-webkit-slider-thumb {
+  border: none;
+  box-shadow: none;
+  height: 1.25rem;
+  width: 6px;
+  border-radius: 0.75rem;
+  background: var(--color-primary);
+  -webkit-appearance: none;
+  margin: -7px 0 0 0;
+  outline: none;
+}
+
+.form-item input[type="range"] {
+  position: relative;
+  padding: 1.25rem;
+  color: var(--color-secondary);
+}
+
+
+.form-item legend,
+.form-item label {
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.form-item p {
+  margin: 1ch 5ch;
+  font-size: 0.8em;
+  display: grid;
+  letter-spacing: 1.2px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* .form-item input[type="range"] .bubble {
+  padding: 5px;
+  border-radius: 3px;
+  background: #999;
+  display: inline-block;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  top: 45px;
+  transform: translateX(-50%);
+  transition: background 0.3s ease;
+}
+
+.form-item input[type="range"]:hover .bubble {
+  background: var(--color-primary);
+} */

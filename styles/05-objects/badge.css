@@ -1,11 +1,11 @@
-.badge-wrapper{
+.badge-wrapper {
   position: relative;
   width: fit-content;
   margin: 3ch;
   display: inline;
 }
 
-.badge{
+.badge {
   align-items: center;
   border-radius: 50%;
   display: inline-flex;
@@ -14,32 +14,39 @@
   padding: 5px;
   position: absolute;
 }
-.badge-right{
+
+.badge-right {
   right: -8px;
 }
-.badge-left{
-  left:-4px;
+
+.badge-left {
+  left: -4px;
   transform: translate(0%, -20%)
 }
-button .badge-sm{
-  top:-5px;
+
+button .badge-sm {
+  top: -5px;
 }
-button .badge-lg{
-  top:-15px;
+
+button .badge-lg {
+  top: -15px;
 }
-.badge-sm{
-  font-size: clamp(0.75rem, 1rem , 1.25rem);
-  height: clamp(1rem, 18px , 20px);
-  width: clamp(1rem, 18px , 20px);
+
+.badge-sm {
+  font-size: clamp(0.75rem, 1rem, 1.25rem);
+  height: clamp(1rem, 18px, 20px);
+  width: clamp(1rem, 18px, 20px);
 }
-.badge-md{
-  font-size: clamp(1rem, 1.25rem , 1.5rem);
-  height: clamp(1.2rem, 21px , 25px);
-  width: clamp(1.2rem, 21px , 25px);
+
+.badge-md {
+  font-size: clamp(1rem, 1.25rem, 1.5rem);
+  height: clamp(1.2rem, 21px, 25px);
+  width: clamp(1.2rem, 21px, 25px);
 }
-.badge-lg{
-  font-size: clamp(1.5rem, 2rem , 2.4rem);
+
+.badge-lg {
+  font-size: clamp(1.5rem, 2rem, 2.4rem);
   font-weight: 700;
-  height: clamp(20px, 25px , 6vw);
-  width: clamp(20px, 25px , 6vw);
+  height: clamp(20px, 25px, 6vw);
+  width: clamp(20px, 25px, 6vw);
 }

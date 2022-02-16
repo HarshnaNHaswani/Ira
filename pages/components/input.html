@@ -18,9 +18,9 @@
 
 
   <nav class="nav-main bg-primary">
-  <a class="logo" href="/">
-    <img src="/assets/logo.png" alt="Ira">
-  </a>
+    <a class="logo" href="/">
+      <img src="/assets/logo.png" alt="Ira">
+    </a>
     <ul>
 
       <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item"> <a
@@ -106,8 +106,60 @@
 
 
   <main class="main-content">
+    <form action="#" class="form">
+      <div class="form-item status-success-outline">
+        <input type="text" class="form-input" placeholder="name" aria-label="name" autocomplete="name">
+      </div>
+      <div class="form-item status-plain-outline">
+        <input type="email" class="form-input" placeholder="email" aria-label="email" autocomplete="email">
+      </div>
+      <div class="form-item status-warning-outline">
+        <input type="password" class="form-input" placeholder="password" aria-label="password">
+      </div>
+      <div class="form-item status-error-outline">
+        <input type="password" class="form-input" placeholder="confirm password" aria-label="confirm password">
+      </div>
 
-    <iframe src="/codeblock/x.txt" frameborder="0" class="codeblock"></iframe>
+      <fieldset class="form-item status-plain-outline">
+        <legend>Gender</legend>
+        <p>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" checked class="">
+        </p>
+        <p>
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" class="">
+        </p>
+        <p>
+          <label for="others">Others</label>
+          <input type="radio" name="gender" id="others" class="">
+        </p>
+      </fieldset>
+
+      <fieldset class="form-item status-plain-outline">
+        <legend>Languages known</legend>
+        <p>
+          <label for="JavaScript">JavaScript</label>
+          <input type="checkbox" name="gender" id="JavaScript" checked class="">
+        </p>
+        <p>
+          <label for="Python">Python</label>
+          <input type="checkbox" name="gender" id="Python" class="">
+        </p>
+        <p>
+          <label for="Java">Java</label>
+          <input type="checkbox" name="gender" id="Java" class="">
+        </p>
+      </fieldset>
+
+      <div class="form-item status-plain-outline">
+        <label for="coding-level">Coding Level:</label>
+        <input type="range" name="coding level" id="coding-level" min="1" max="5">
+      </div>
+
+      <button class="btn bg-primary" type="submit">Hello</button>
+
+    </form>
   </main>
 
 

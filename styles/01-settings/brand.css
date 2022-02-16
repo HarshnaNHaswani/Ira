@@ -1,5 +1,5 @@
 /* primary, secondary, accent... */
-:root{
+:root {
   --color-primary: #2e2e2e;
   --color-primary-inverse: #c0b7b7;
   --color-secondary: #646668;
@@ -10,11 +10,13 @@
   --color-background: #c0b7b7;
   --color-shadow: #00000033
 }
+
 .bg-primary {
   background-color: var(--color-primary);
   color: var(--color-primary-inverse);
 }
-.outline-primary{
+
+.outline-primary {
   border: 2px solid var(--color-primary);
 }
 
@@ -22,23 +24,25 @@
   background-color: var(--color-secondary);
   color: var(--color-secondary-inverse);
 }
+
 .outline-secondary {
   border: 2px solid var(--color-secondary);
-} 
+}
 
 .bg-accent {
   background-color: var(--color-accent);
   color: var(--color-accent-inverse);
 }
+
 .outline-accent {
   border: 2px solid var(--color-accent);
-} 
+}
 
-.bg-default{
+.bg-default {
   background-color: var(--color-background);
   color: var(--color-text);
 }
 
-.outline-default{
+.outline-default {
   border: 2px solid var(--color-background);
 }

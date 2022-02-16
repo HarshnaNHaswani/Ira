@@ -1,8 +1,8 @@
-.icon{
+.icon {
   width: clamp(1ch, 2ch, 3ch);
 }
 
-.badge-wrapper .icon{
+.badge-wrapper .icon {
   width: fit-content;
   margin: 0;
   padding: 0;
