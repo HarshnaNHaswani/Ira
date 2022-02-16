@@ -6,10 +6,39 @@
   border-radius: 5px;
   font-variant: small-caps;
   letter-spacing: 0.2ch;
+  transition: 0.3s ease;
 }
 
 .btn:hover{
   filter: hue-rotate(30deg);
-  transform: scale(1.1) ;
-  transition-duration: 0.5s;
+  transform: scale(1.1);
+  transition: 0.3s ease;
 }
+
+.btn.btn-float{
+  width: clamp(2ch, 3ch, 5ch);
+  object-fit: scale-down;
+  padding: 4ch;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  transform: scale(1);
+  box-shadow: 0 0 30px var(--color-shadow);
+}
+
+.btn-float .float-item{
+  padding: 0;
+  margin: 0;
+}
+
+.btn.btn-icon{
+  display: grid;
+  grid-template-rows: repeat(1fr, 2);
+  padding: 1ch;
+  place-items: center;
+}
+
+.btn-icon .icon{
+  margin: 0.5ch
+}
+
