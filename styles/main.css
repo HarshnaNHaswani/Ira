@@ -13,17 +13,21 @@
 
 @import url(05-objects/logo.css);
 @import url(05-objects/nav.css);
+@import url(05-objects/nav.css);
 @import url(05-objects/page.css);
 @import url(05-objects/landing.css);
 @import url(05-objects/avatar.css);
 @import url(05-objects/alert.css);
 @import url(05-objects/badge.css);
 @import url(05-objects/button.css);
-@import url(05-objects/card.css);
 @import url(05-objects/icon.css);
+@import url(05-objects/image.css);
+@import url(05-objects/input.css);
+
 
 /* fully designed components/pieces of UI using classes explicitly named e.g. .products-list*/
 @import url(06-components/brand-theme.css);
+@import url(06-components/card.css);
 
 /* utilities, overrides, helper */
 @import url(99-trumps/status.css);
