@@ -2,9 +2,8 @@
 :root{
   --color-background-card: #ffffff;
   --color-text-card: #646464;
-  --color-shadow-card: #3a393a;
   --width-card: clamp(45ch, 50ch, 65ch);
-  --color-background-float-title: #0022fc77;
+  --color-background-float-title: #0b0b0f77;
   --color-text-float-title: #ffffff;
 }
 .card-container,
@@ -27,7 +26,7 @@
 .card-container {
   background-color: var(--color-background-card);
   color: var(--color-text-card);
-  box-shadow: 0 0 5px var(--color-shadow-card);
+  box-shadow: 0 0 5px var(--color-shadow);
   row-gap: 5px;
   width: var(--width-card);
   flex-direction: column;
@@ -167,4 +166,9 @@
 .actions button:hover,
 .action-button {
   filter: hue-rotate(20deg);
+}
+
+.card-container img{
+  margin: 0;
+  padding: 0;
 }
