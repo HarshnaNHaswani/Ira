@@ -114,10 +114,25 @@
 
 
   <main class="main-content">
-
-    <iframe src="/codeblock/x.txt" frameborder="0" class="codeblock"></iframe>
-  </main>
-
+    <div>
+      <img src="https://picsum.photos/300/200" alt="round-image-test" class="img-round">
+    </div>
+    
+    <div>
+      <img src="https://picsum.photos/100" 
+      alt="logo"
+      srcset="
+           https://picsum.photos/200 200w,
+           https://picsum.photos/400 400w,
+           https://picsum.photos/600 600w,
+           
+       "
+      sizes="(min-width: 800px) 600px, (min-width: 600px) 400px, 200px"
+      class="logo"
+ >
+    </div>
+    </main>
+    
 
 
   <footer>
