@@ -8,6 +8,7 @@
   --color-accent-inverse: #ffffff;
   --color-text: #424242;
   --color-background: #c0b7b7;
+  --color-shadow: #00000033
 }
 .bg-primary {
   background-color: var(--color-primary);

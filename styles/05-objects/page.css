@@ -5,7 +5,7 @@
   flex-flow: column wrap;
   align-items: center;
 }
-.main-content,
+
 .main-content {
   min-width: 45ch;
   max-width: 65ch;

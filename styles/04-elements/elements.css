@@ -30,7 +30,7 @@ iframe{
   border-top: 3px solid;
   border-left: 3px solid;
   border-radius: 5px;
-  box-shadow: 0px 0px 15px rgb(116, 94, 111) inset;
+  box-shadow: 0px 0px 15px #745e6f inset;
   padding: 4ch;
   height: clamp(300px, 400px, 500px);
   width: 150%
@@ -45,4 +45,19 @@ button{
 a{
   text-decoration: none;
   color: inherit;
+}
+
+img{
+  margin: 3ch;
+}
+
+input{
+  margin: 0;
+  padding: 0;
+  width: clamp(10rem, 15rem, 20rem);
+}
+
+::selection{
+  background-color: var(--color-text);
+  color: var(--color-background);
 }
