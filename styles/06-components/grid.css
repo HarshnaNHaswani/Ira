@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+  gap: 2ch;
+  margin: 2rem;
+  padding: 2ch;
+}
+
+.grid-cols2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-child {
+  padding: 0.5ch;
+}
