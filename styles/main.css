@@ -28,6 +28,7 @@
 /* fully designed components/pieces of UI using classes explicitly named e.g. .products-list*/
 @import url(06-components/brand-theme.css);
 @import url(06-components/card.css);
+@import url(06-components/site-nav.css);
 
 /* utilities, overrides, helper */
 @import url(99-trumps/status.css);
