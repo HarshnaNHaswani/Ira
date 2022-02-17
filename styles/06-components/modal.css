@@ -1,0 +1,61 @@
+/* .modal {
+  height:  100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 30;
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.modal .list-stacked{
+  margin: auto;
+  border: 0;
+  /* width: 70%; */
+  /* box-shadow: 0 5px 8px 0 var(--color-shadow), 0 7px 20px 0 #0000002b; */
+/* }
+
+.modal {
+  width: clamp(10rem, 20rem, 30rem);;
+  
+}
+
+.modal .icon {
+  color: var(--color-secondary)
+} */
+ 
+
+
+.modal {
+  position: fixed;
+  right: 0;
+  border: 2px solid var(--color-secondary); 
+  height: 350px;
+  overflow: auto;
+}
+
+.modal .list-stacked {
+  border: 0;
+  margin-bottom: 0;
+}
+
+.modal-content {
+  margin-top: 2ch;
+}
+
+.modal .list-heading{
+  margin-left: 1ch;
+}
+.modal-sub {
+  margin-bottom: 2ch;
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+.modal-sub .modal-content {
+  padding: 0 5ch;
+  margin: 0;
+}
+
+.modal .icon {
+  margin-right: 2ch;
+}
