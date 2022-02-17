@@ -1,0 +1,23 @@
+.nav-main{
+  display: flex;
+  padding: 10px;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  margin-bottom: 10ch;
+}
+.nav-main ul{
+  margin-left: auto;
+  display: inline-flex;
+  align-items: flex-end;
+}
+.nav-list-item{
+  margin: 0 2vw;
+  padding: 0 0.5vw;
+  text-transform: capitalize;
+}
+
+.nav-side .nav-list-item{
+  margin: 2ch 5ch 2ch 10vw;
+  list-style-type:circle;
+}
+

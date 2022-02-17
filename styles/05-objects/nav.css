@@ -1,22 +1,27 @@
-.nav-main{
-  display: flex;
-  padding: 10px;
-  border-bottom-left-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-  margin-bottom: 10ch;
-}
-.nav-main ul{
-  margin-left: auto;
-  display: inline-flex;
-  align-items: flex-end;
-}
-.nav-list-item{
-  margin: 0 2vw;
-  padding: 0 0.5vw;
-  text-transform: capitalize;
+:root {
+  --width-nav-scrolling :40vw 
 }
 
-.nav-side .nav-list-item{
-  margin: 2ch 5ch 2ch 10ch;
-  list-style-type:circle;
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 2ch;
+  border-radius: 5px;
 }
+
+.nav .list-inline {
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+}
+
+.nav-site{
+  margin-bottom: 4rem;
+}
+
+.nav-scrolling {
+  max-width: var(--width-nav-scrolling);
+  overflow-x: scroll;
+}
+
+
