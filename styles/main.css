@@ -23,7 +23,7 @@
 @import url(05-objects/icon.css);
 @import url(05-objects/image.css);
 @import url(05-objects/input.css);
-
+@import url(05-objects/list.css);
 
 /* fully designed components/pieces of UI using classes explicitly named e.g. .products-list*/
 @import url(06-components/brand-theme.css);

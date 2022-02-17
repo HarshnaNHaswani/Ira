@@ -7,16 +7,8 @@ body {
   color: var(--color-background)
 }
 
-.heading-sm,
-.heading-lg,
-.heading-xl,
-.heading-md,
-.heading-xs,
-.text-xl,
-.text-lg,
-.text-md,
-.text-sm,
-.text-xs {
+.heading ,
+.text {
   line-height: 1.75;
   text-align: center;
 }
