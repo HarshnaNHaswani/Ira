@@ -1,0 +1,65 @@
+:root {
+  --list-number-style: '\1';
+  --list-bullet-style: '\27A5';
+  --list-number-family: '';
+  /* --list-bullet-family: ''; */
+  --list-bullet-color: inherit;
+  --list-bullet-size: 0.8em;
+  --list-item-bullet-space: 4ch;
+}
+
+.list{
+  margin-bottom: 4ch;
+}
+
+.list ::marker{
+  color: var(--list-bullet-color);
+  font-size: var(--list-bullet-size);
+}
+
+.list-numbered > ::marker {
+  font-family: var(--list-number-family);
+  content: var(--list-number-style);
+}
+
+.list-bulleted > ::marker {
+  font-family: var(--list-bullet-family);
+  content: var(--list-bullet-style);
+}
+
+.list >.list-item {
+  padding-left: var(--list-item-bullet-space);
+  margin: 1ch;
+  text-transform: capitalize;
+}
+
+.heading.list-heading {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1.3px;
+  margin-bottom: 1ch;
+}
+
+.list-inline {
+  display: inline-flex;
+}
+
+.list-stacked{
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid;
+  /* margin: 1ch; */
+  padding: 0.5ch 0 0;
+}
+
+.list-stacked .list-item{
+  border-bottom: 1px solid var(--color-secondary);
+  padding: 1ch;
+  justify-self: baseline;
+  margin: 0.5ch 1ch;
+}
+
+.list-stacked :last-child{
+  border-bottom: none;
+}
