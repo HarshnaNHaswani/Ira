@@ -14,7 +14,7 @@ body {
 }
 
 .display {
-  min-height: 400px;
+  min-height: 38rem;
   padding: 0 2ch;
   border: 1px solid black;
 }
