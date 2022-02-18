@@ -2,7 +2,7 @@
   position: fixed;
   right: 0;
   border: 2px solid var(--color-secondary); 
-  height: 350px;
+  height: 20rem;
   overflow: auto;
 }
 
