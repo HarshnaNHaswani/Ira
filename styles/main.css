@@ -29,6 +29,7 @@
 @import url(06-components/brand-theme.css);
 @import url(06-components/card.css);
 @import url(06-components/site-nav.css);
+@import url(06-components/modal.css);
 
 /* utilities, overrides, helper */
 @import url(99-trumps/status.css);
