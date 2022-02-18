@@ -1,3 +1,11 @@
 .round {
   border-radius: 50%;
 }
+
+.hidden {
+  display: none;
+}
+
+.no-expansion {
+  max-width: 100%;
+}

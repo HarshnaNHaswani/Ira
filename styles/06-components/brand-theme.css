@@ -1,6 +1,7 @@
 body {
   color: var(--color-text);
   background-color: var(--color-background);
+  min-height: 100vh;
 }
 
 .nav-main {
@@ -22,4 +23,12 @@ body {
 .grid-demo,
 .grid-demo .grid-child{
   border: 1px solid black;
+}
+.snackbar-display {
+  height: 100vh;
+}
+
+
+.img-display {
+  margin-left: -35vw;
 }
