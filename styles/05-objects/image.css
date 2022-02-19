@@ -3,3 +3,19 @@
   width: 50%;
   border-radius: 50%;
 }
+
+.img-responsive {
+  object-fit: contain;
+}
+
+.img-responsive.size-lg {
+  width: clamp(70vw, 80vw, 90vw)
+}
+
+.img-responsive.size-md {
+  width:  clamp(40vw, 50vw, 60vw)
+}
+
+.img-responsive.size-sm {
+  width:  clamp(10vw, 20vw, 30vw)
+}

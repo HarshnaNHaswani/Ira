@@ -30,12 +30,12 @@ p {
 }
 
 iframe {
-  border: 0;
-  border-top: 3px solid;
-  border-left: 3px solid;
-  border-radius: 5px;
-  box-shadow: 0px 0px 15px #745e6f inset;
-  padding: 4ch;
+  /* border: 0; */
+  /* border-top: 1px solid;
+  border-left: 1px solid; */
+  /* border-radius: 5px; */
+  /* box-shadow: 0px 0px 15px #745e6f inset; */
+  /* padding: 4ch; */
   height: clamp(300px, 400px, 500px);
   width: 150%
 }
