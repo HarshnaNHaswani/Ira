@@ -31,6 +31,8 @@
 @import url(06-components/site-nav.css);
 @import url(06-components/modal.css);
 @import url(06-components/grid.css);
+@import url(06-components/rating.css);
+@import url(06-components/snackbar.css);
 
 /* utilities, overrides, helper */
 @import url(99-trumps/status.css);

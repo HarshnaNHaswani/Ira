@@ -11,7 +11,7 @@
   <title> Ira — Snackbar</title>
 
   <link rel="stylesheet" href="/styles/main.css">
-
+  
 </head>
 
 <body class="docs ">
@@ -105,9 +105,38 @@
 
 
 
-  <main class="main-content">
+  <main class="main-content snackbar-display">
+    <button class = "btn bg-secondary snackbar-eg">Display Snackbar</button>
+    <div class="snackbar bg-primary hidden">
+    <p>This is Baseline Snackbar</p>
+    <section class="actions">
+      <section class="action-buttons">
+        <button class="btn outline-secondary">X</button>
+        <button id="snackbar-act" class="btn status-error-bg">Action</button>
+      </section>
+    </section>
+  </div>
+  <div class="snackbar leading status-info-bg hidden">
+    <p>This is Leading Snackbar</p>
+    <section class="actions">
+      <section class="action-buttons">
+        <button class="btn outline-primary">X</button>
+        <button id="snackbar-act" class="btn bg-primary">Action</button>
+      </section>
+    </section>
+  </div>
 
-    <iframe src="/codeblock/x.txt" frameborder="0" class="codeblock"></iframe>
+  <div class="snackbar stacked bg-secondary hidden">
+    <p>This is Stacked Snackbar</p>
+    <section class="actions">
+      <section class="action-buttons">
+        <button class="btn outline-primary">X</button>
+        <button id="snackbar-act" class="btn bg-primary">Action</button>
+      </section>
+    </section>
+  </div>
+
+  <iframe src="https://www.thiscodeworks.com/embed/620fdce014fadf0015661e22"  frameborder="0"></iframe>
   </main>
 
 
@@ -116,6 +145,6 @@
     <p>Developed by Harshna Haswani</p>
   </footer>
 
+  <script src="/scripts/snackbar.js"></script>
 </body>
-
 </html>

@@ -1,0 +1,42 @@
+:root {
+  --color-rating-before: #7e7d7d;
+  --color-rating-after: #e7d10a;
+}
+
+.rating-wrapper{
+  direction: rtl;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  margin: 5ch;
+}
+
+.rating-wrapper input[type="radio"] {
+  visibility: hidden;
+  width: 4ch;
+  height: 0.09ch;
+}
+
+.rating-wrapper label{
+  display: inline-block;
+  position: absolute;
+  font-size: 2em;
+}
+.wrap-primary {
+  color: var(--color-secondary);
+}
+.wrap-color {
+  color: var(--color-rating-before);
+}
+.wrap-color label:hover,
+.wrap-color label:hover ~ label,
+.wrap-color input:checked ~ label{
+  color: var(--color-rating-after);
+  opacity: 1;
+}
+.wrap-primary label:hover,
+.wrap-primary label:hover ~ label,
+.wrap-primary input:checked ~ label{
+  color: var(--color-primary);
+  opacity: 1;
+}

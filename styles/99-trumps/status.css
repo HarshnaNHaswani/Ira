@@ -1,7 +1,7 @@
 /* color for status - text */
 :root {
   --color-status-success: #30a530;
-  --color-status-error: #cc0f0f;
+  --color-status-error: #bd0000;
   --color-status-warning: #c2ab29;
   --color-status-info: #669beb;
   --color-status-plain: #808080;
