@@ -8,19 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Harshna Haswani">
   <meta name="description" content="Ira is the component library for scalable, modern, and beautiful UI.">
-  <title> Ira — Snackbar</title>
+  <title> Ira — drawer</title>
 
   <link rel="stylesheet" href="/styles/main.css">
-  
+
 </head>
 
 <body class="docs ">
 
 
   <nav class="nav-main bg-primary">
-  <a class="logo" href="/">
-    <img src="/assets/logo.png" alt="Ira">
-  </a>
+    <a class="logo" href="/">
+      <img src="/assets/logo.png" alt="Ira">
+    </a>
     <ul>
 
       <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item"> <a
@@ -29,7 +29,6 @@
                 href="https://github.com/HarshnaNHaswani/Ira">GitHub</a></li>
     </ul>
   </nav>
-
 
   <aside>
     <nav class="nav-side">
@@ -48,17 +47,12 @@
 
 
         <li class="nav-list-item"><a href="/pages/components/input.html">input</a></li>
-
-
-
-
-
+        
 
 
         <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
 
-
-
+        
         <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
 
 
@@ -66,11 +60,10 @@
         <li class="nav-list-item"><a href="/pages/components/image.html">image</a></li>
 
 
+        <li class="nav-list-item"><a href="/pages/components/modal.html">modal</a></li>
 
-        <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
-        
-        
-        <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
+
+        <li class="nav-list-item"><a href="/pages/components/drawer.html">drawer</a></li>
 
 
 
@@ -83,7 +76,6 @@
 
 
         <li class="nav-list-item"><a href="/pages/components/navigation.html">navigation</a></li>
-
 
 
         <li class="nav-list-item"><a href="/pages/components/rating.html">Ratings</a></li>
@@ -103,43 +95,75 @@
 
 
   <header>
-    <h1 clss="page-title">Snackbar</h1>
+    <h1 clss="page-title">Drawer</h1>
   </header>
 
 
 
-  <main class="main-content snackbar-display">
-    <button class = "btn bg-secondary snackbar-eg">Display Snackbar</button>
-    <div class="snackbar bg-primary hidden">
-    <p>This is Baseline Snackbar</p>
-    <section class="actions">
-      <section class="action-buttons">
-        <button class="btn outline-secondary">X</button>
-        <button id="snackbar-act" class="btn status-error-bg">Action</button>
-      </section>
-    </section>
-  </div>
-  <div class="snackbar leading status-info-bg hidden">
-    <p>This is Leading Snackbar</p>
-    <section class="actions">
-      <section class="action-buttons">
-        <button class="btn outline-primary">X</button>
-        <button id="snackbar-act" class="btn bg-primary">Action</button>
-      </section>
-    </section>
-  </div>
+  <main class="main-content">
+    <aside class="drawer">
+      <ul class="list list-stacked drawer-content">
+        <li class="drawer-sub">
+          <h5 class="heading list-heading">P0 components</h5>
+          <ul class="list list-stacked  drawer-content">
+            <li class="list-item"><a href="/pages/components/alert.html">
+                <span class="icon">
+                  &#9888;
+                </span>
+                alert</a>
+            </li>
 
-  <div class="snackbar stacked bg-secondary hidden">
-    <p>This is Stacked Snackbar</p>
-    <section class="actions">
-      <section class="action-buttons">
-        <button class="btn outline-primary">X</button>
-        <button id="snackbar-act" class="btn bg-primary">Action</button>
-      </section>
-    </section>
-  </div>
 
-  <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/620fdce014fadf0015661e22"  frameborder="0"></iframe>
+            <li class="list-item"><a href="/pages/components/badge.html">
+                <span class="icon">
+                  &#9313;
+                </span>
+                badge</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="drawer-sub">
+          <h5 class="heading list-heading">P1 components</h5>
+          <ul class="list list-stacked  drawer-content">
+            <li class="list-item"><a href="/pages/components/list.html">
+                <span class="icon">
+                  &#8694;
+                </span>
+                list</a>
+            </li>
+
+            <li class="list-item"><a href="/pages/components/navigation.html">
+                <span class="icon">
+                  &#11134;
+                </span>
+                navigation</a>
+            </li>
+
+
+
+            <li class="list-item"><a href="/pages/components/rating.html">
+                <span class="icon">
+                  &#9734;
+                </span>
+                Ratings</a>
+            </li>
+
+
+
+            <li class="list-item"><a href="/pages/components/text.html">
+                <span class="icon">
+                  &#9417;
+                </span>
+                text</a>
+            </li>
+
+          </ul>
+        </li>
+      </ul>
+    </aside>
+
+    <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/621262f15362a500156c2bf0" frameborder="0"></iframe>
   </main>
 
 
@@ -148,6 +172,6 @@
     <p>Developed by Harshna Haswani</p>
   </footer>
 
-  <script src="../../scripts/demo.js"></script>
 </body>
+
 </html>

@@ -51,12 +51,7 @@
 
 
 
-
-
-
-
         <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
-
 
 
         <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
@@ -66,8 +61,10 @@
         <li class="nav-list-item"><a href="/pages/components/image.html">image</a></li>
 
 
+        <li class="nav-list-item"><a href="/pages/components/modal.html">modal</a></li>
 
-        <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
+
+        <li class="nav-list-item"><a href="/pages/components/drawer.html">drawer</a></li>
 
 
 
@@ -104,77 +101,44 @@
   </header>
 
   <main class="main-content">
-    <aside class="modal">
-      <ul class="list list-stacked modal-content">
-        <li class="modal-sub">
-          <h5 class="heading list-heading">P0 components</h5>
-          <ul class="list list-stacked  modal-content">
-            <li class="list-item"><a href="/pages/components/alert.html">
-                <span class="icon">
-                  &#9888;
-                </span>
-                alert</a>
-            </li>
+    <button class="btn bg-secondary modal-demo1">Display Simple Modal</button>
+    <div class="modal modal-simple hidden">
+      <section class="">
+        <h2 class="heading modal-heading">Modal Header</h2>
+        <p class="modal-body">This is a simple modal. Give modal text here</p>
+      </section>
+      <section class="actions modal-actions">
+        <button class="btn outline-primary modal-demo1">
+          close
+        </button>
+        <button class="btn bg-accent modal-demo1">
+          Okay
+        </button>
+      </section>
+    </div>
 
+    <button class="btn bg-secondary modal-demo2">Display Stacked Modal</button>
+    <div class="modal modal-stacked hidden">
+      <section class="">
+        <h2 class="heading modal-heading">Modal Header</h2>
+        <p class="modal-body">This is a stacked modal. Give modal text here</p>
+      </section>
+      <section class="actions modal-actions">
+        <button class="btn outline-primary modal-demo2">
+          close
+        </button>
+        <button class="btn bg-accent modal-demo2">
+          Okay
+        </button>
+      </section>
+    </div>
 
-            <li class="list-item"><a href="/pages/components/badge.html">
-                <span class="icon">
-                  &#9313;
-                </span>
-                badge</a>
-            </li>
-          </ul>
-        </li>
-
-        <li class="modal-sub">
-          <h5 class="heading list-heading">P1 components</h5>
-          <ul class="list list-stacked  modal-content">
-            <li class="list-item"><a href="/pages/components/list.html">
-                <span class="icon">
-                  &#8694;
-                </span>
-                list</a>
-            </li>
-
-            <li class="list-item"><a href="/pages/components/navigation.html">
-                <span class="icon">
-                  &#11134;
-                </span>
-                navigation</a>
-            </li>
-
-
-
-            <li class="list-item"><a href="/pages/components/rating.html">
-                <span class="icon">
-                  &#9734;
-                </span>
-                Ratings</a>
-            </li>
-
-
-
-            <li class="list-item"><a href="/pages/components/text.html">
-                <span class="icon">
-                  &#9417;
-                </span>
-                text</a>
-            </li>
-
-          </ul>
-        </li>
-      </ul>
-    </aside>
-
-    <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/621262f15362a500156c2bf0" frameborder="0"></iframe>
-  </main>
-
-
+   </main>
 
   <footer>
     <p>Developed by Harshna Haswani</p>
   </footer>
-
+  <script src="../../scripts/demo.js"></script>
 </body>
 
 </html>
