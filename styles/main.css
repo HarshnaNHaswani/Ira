@@ -12,7 +12,6 @@
 /* oocss, design patterns, no cosmetics, using classes, Agnostically named e.g. .ui-list */
 
 @import url(05-objects/logo.css);
-@import url(05-objects/page.css);
 @import url(05-objects/landing.css);
 @import url(05-objects/avatar.css);
 @import url(05-objects/alert.css);
@@ -24,10 +23,10 @@
 @import url(05-objects/list.css);
 
 /* fully designed components/pieces of UI using classes explicitly named e.g. .products-list*/
-@import url(06-components/brand-theme.css);
 @import url(06-components/card.css);
 @import url(06-components/site-nav.css);
 @import url(06-components/modal.css);
+@import url(06-components/drawer.css);
 @import url(06-components/nav.css);
 @import url(06-components/grid.css);
 @import url(06-components/rating.css);

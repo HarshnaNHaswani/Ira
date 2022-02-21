@@ -9,13 +9,13 @@
 }
 
 .img-responsive.size-lg {
-  width: clamp(70vw, 80vw, 90vw)
+  width: clamp(50vw, 60vw, 70vw);
 }
 
 .img-responsive.size-md {
-  width:  clamp(40vw, 50vw, 60vw)
+  width:  clamp(30vw, 40vw, 50vw);
 }
 
 .img-responsive.size-sm {
-  width:  clamp(10vw, 20vw, 30vw)
+  width:  clamp(10vw, 20vw, 30vw);
 }

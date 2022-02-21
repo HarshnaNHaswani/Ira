@@ -51,10 +51,6 @@
 
 
 
-
-
-
-
         <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
 
 
@@ -68,6 +64,9 @@
 
 
         <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
+        
+        
+        <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
 
 
 
@@ -106,13 +105,59 @@
 
 
   <main class="main-content">
+  <p class="site-docs">Badges are used to display notifs, and status. To implement this functionality, add the <span class="highlight">badge-wrapper</span> class to the <code>&lt;div></code> tag. Inside this wrapper div, give the avatar/ icon. Also, give a <code>&lt;span></code>tag with class <span class="highlight">badge</span> to add the badge.</p>
+
+  <p class="site-docs">To know more about avatar, see <a href="./avatar.html" class="highlight underline">Avatar</a>.  For icons, add class <span class="highlight">icon</span> to the tag.</p>
+
+  <p class="site-docs">To make a status badge, leave the badge span empty. For numbered badges, add the required number within the span.</p>
+
+
+    <h2  class="site-docs">Additional Classes for &lt;span class="badge"></h2>
+
+    <h3 class="heading list-heading">Size Classes</h3>
+    <ul class="list list-bulleted">
+      <li class="list-item"><code>badge-sm</code></li>
+      <li class="list-item"><code>badge-md</code></li>
+      <li class="list-item"><code>badge-lg</code></li>
+    </ul>
+
+    <h3 class="heading list-heading">Status Classes</h3>
+    <p  class="site-docs">These classes add a background to the badges. They may indicate availability or purpose of the badge(for icons)</p>
+    <ul class="list list-bulleted">
+      <li class="list-item"><code>status-available-bg</code></li>
+      <li class="list-item"><code>status-busy-bg</code></li>
+      <li class="list-item"><code>status-idle-bg</code></li>
+      <li class="list-item"><code>status-active-bg</code></li>
+      <li class="list-item"><code>status-inactive-bg</code></li>
+      <li class="list-item"><code>status-plain-bg</code></li>
+      <li class="list-item"><code>status-info-bg</code></li>
+      <li class="list-item"><code>status-warning-bg</code></li>
+      <li class="list-item"><code>status-error-bg</code></li>
+      <li class="list-item"><code>status-success-bg</code></li>
+    </ul>
+    <p  class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
+      <code>
+        :root {
+          --color-status-success: &lt;color>;
+          --color-inverse-status-success: &lt;color>;
+        }
+      </code>. 
+      This will change the the color wherever you use the status class, that is, in status-warning-outline (borders), status-warning-bg (bacground), and status-warning (text) classes. The inverse <code>--color-inverse-status-warning</code> property is used to provide appropriate text color against the status background.
+    </p>
+
+    <h3 class="heading list-heading">Position Classes</h3>
+    <p class="site-docs">Position classes are used to set the position of the badge on the required component.</p>
+    <ul class="list list-bulleted">
+      <li class="list-item"><code>badge-left</code></li>
+      <li class="list-item"><code>badge-right</code></li>
+    </ul>
     <div>
       <div class="badge-wrapper">
         <img src="https://picsum.photos/100" alt="avatar " srcset="
         https://picsum.photos/100 100w,
         https://picsum.photos/200 200w
         " sizes="(min-width: 480px) 200px, 100px" class="avatar avatar-sm round">
-        <span class="badge badge-sm badge-left status-active-bg">4</span>
+        <span class="badge badge-sm badge-left status-active-bg"></span>
       </div>
       <div class="badge-wrapper">
         <img src="https://picsum.photos/100" alt="avatar " srcset="

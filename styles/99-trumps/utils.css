@@ -9,3 +9,21 @@
 .no-expansion {
   max-width: 100%;
 }
+
+.highlight {
+  color: var(--color-accent);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.iframe-small{
+  height: max-content;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: 0.75em;
+}

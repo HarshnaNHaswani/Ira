@@ -1,3 +1,10 @@
+:root {
+  --width-min-grid-fit: 5rem;
+  --width-max-grid-fit: 1fr;
+  --width-min-grid-fill: 5rem;
+  --width-max-grid-fill: 1fr;
+}
+
 .grid-container {
   display: grid;
   gap: 2ch;
@@ -11,6 +18,14 @@
 
 .grid-cols3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-fill {
+  grid-template-columns: repeat(auto-fill, minmax(var(--width-min-grid-fill), var(--width-max-grid-fill)));
+}
+
+.grid-fit {
+  grid-template-columns: repeat(auto-fit, minmax(var(--width-min-grid-fit), var(--width-max-grid-fit)));
 }
 
 .grid-child {

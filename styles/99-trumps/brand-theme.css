@@ -24,11 +24,25 @@ body {
 .grid-demo .grid-child{
   border: 1px solid black;
 }
+
 .snackbar-display {
   height: 100vh;
 }
 
+.img-display img{
+  margin: 2ch;
+}
 
-.img-display {
-  margin-left: -35vw;
+p.site-docs{
+  margin: 1ch 0;
+}
+
+h2.site-docs,
+h3.site-docs,
+h4.site-docs {
+  margin: 3ch 0 0.5ch;
+}
+
+.list-item code {
+  text-transform: lowercase;
 }

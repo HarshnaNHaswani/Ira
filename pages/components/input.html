@@ -68,6 +68,9 @@
 
 
         <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
+        
+        
+        <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
 
 
 
@@ -102,7 +105,31 @@
   <header>
     <h1 clss="page-title">input</h1>
   </header>
+    <main class="main-content">
 
+     <p class="site-docs">Inputs are used to display get data from the user. To implement this functionality, wrap the input element. On the wrapper, add the <span class="highlight">form-item</span> class. To the <code>&lt;input type="text"></code> tag, give the class <span class="highlight">form-input</span>.</p>
+    <p class="status-info-bg site-docs">Note: Add the <span class="underline">form-input</span> class only to text inputs and not to radio buttons, checkboxes, range slider etc.</p>
+
+    <h2 class="site-docs">Additional Classes</h2>
+    <p class="site-docs">All the form-items (wrappers) can be wrapped inside a  <code>&lt;form></code> tag, and this form tag can contain the class <span class="highlight">form</span></p>
+    <h3 class="heading list-heading site-docs">Status Classes for Wrapper</h3>
+    <p  class="site-docs">These classes are used to change the color of the bottom border. This can be used for input validation. By default, the color of the status is status-plain-outline. </p>
+    <ul class="list list-bulleted">
+      <li class="list-item"><code>status-plain-outline</code></li>
+      <li class="list-item"><code>status-info-outline</code></li>
+      <li class="list-item"><code>status-warning-outline</code></li>
+      <li class="list-item"><code>status-error-outline</code></li>
+      <li class="list-item"><code>status-success-outline</code></li>
+    </ul>
+    <p  class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
+      <code>
+        :root {
+          --color-status-success: &lt;color>;
+          --color-inverse-status-success: &lt;color>;
+        }
+      </code>. 
+      This will change the the color wherever you use the status class, that is, in status-warning-outline (borders), status-warning-bg (bacground), and status-warning (text) classes. The inverse <code>--color-inverse-status-warning</code> property is used to provide appropriate text color against the status background.
+    </p>
 
 
   <main class="main-content">
@@ -124,15 +151,15 @@
         <legend>Gender</legend>
         <p>
           <label for="male">Male</label>
-          <input type="radio" name="gender" id="male" checked class="">
+          <input type="radio" name="gender" id="male" checked>
         </p>
         <p>
           <label for="female">Female</label>
-          <input type="radio" name="gender" id="female" class="">
+          <input type="radio" name="gender" id="female">
         </p>
         <p>
           <label for="others">Others</label>
-          <input type="radio" name="gender" id="others" class="">
+          <input type="radio" name="gender" id="others">
         </p>
       </fieldset>
 
@@ -140,15 +167,15 @@
         <legend>Languages known</legend>
         <p>
           <label for="JavaScript">JavaScript</label>
-          <input type="checkbox" name="gender" id="JavaScript" checked class="">
+          <input type="checkbox" name="gender" id="JavaScript" checked>
         </p>
         <p>
           <label for="Python">Python</label>
-          <input type="checkbox" name="gender" id="Python" class="">
+          <input type="checkbox" name="gender" id="Python">
         </p>
         <p>
           <label for="Java">Java</label>
-          <input type="checkbox" name="gender" id="Java" class="">
+          <input type="checkbox" name="gender" id="Java">
         </p>
       </fieldset>
 
