@@ -12,14 +12,12 @@ if (btnSnackbar) {
   })  
 }
 
-const classToggle = (component) => component.classList.toggle('hidden')
+const classToggle = (UIcomponent) => UIcomponent.classList.toggle('hidden')
 
 if(btnModalSimple){
   btnModalSimple.forEach(btn => {
-    console.log("clicked");
     btn.addEventListener('click', () => classToggle(modalSimple))
   });
-  console.log(btnModalSimple, modalSimple);
 }
 
 if(btnModalStacked){
@@ -27,6 +25,4 @@ if(btnModalStacked){
     console.log("clicked");
     btn.addEventListener('click', () => classToggle(modalStacked))
   });
-  console.log(btnModalStacked, modalStacked);
 }
-
