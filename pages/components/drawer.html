@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Harshna Haswani">
   <meta name="description" content="Ira is the component library for scalable, modern, and beautiful UI.">
-  <title> Ira — Modal</title>
+  <title> Ira — drawer</title>
 
   <link rel="stylesheet" href="/styles/main.css">
 
@@ -48,12 +48,12 @@
 
 
         <li class="nav-list-item"><a href="/pages/components/input.html">input</a></li>
-
+        
 
 
         <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
 
-
+        
         <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
 
 
@@ -97,43 +97,75 @@
 
 
   <header>
-    <h1 clss="page-title">Modal</h1>
+    <h1 clss="page-title">Drawer</h1>
   </header>
 
+
+
   <main class="main-content">
-    <button class="btn bg-secondary modal-demo1">Display Simple Modal</button>
-    <div class="modal modal-simple hidden">
-      <section class="">
-        <h2 class="heading modal-heading">Modal Header</h2>
-        <p class="modal-body">This is a simple modal. Give modal text here</p>
-      </section>
-      <section class="actions modal-actions">
-        <button class="btn outline-primary modal-demo1">
-          close
-        </button>
-        <button class="btn bg-accent modal-demo1">
-          Okay
-        </button>
-      </section>
-    </div>
-
-    <button class="btn bg-secondary modal-demo2">Display Stacked Modal</button>
-    <div class="modal modal-stacked hidden">
-      <section class="">
-        <h2 class="heading modal-heading">Modal Header</h2>
-        <p class="modal-body">This is a stacked modal. Give modal text here</p>
-      </section>
-      <section class="actions modal-actions">
-        <button class="btn outline-primary modal-demo2">
-          close
-        </button>
-        <button class="btn bg-accent modal-demo2">
-          Okay
-        </button>
-      </section>
-    </div>
+    <aside class="drawer">
+      <ul class="list list-stacked drawer-content">
+        <li class="drawer-sub">
+          <h5 class="heading list-heading">P0 components</h5>
+          <ul class="list list-stacked  drawer-content">
+            <li class="list-item"><a href="/pages/components/alert.html">
+                <span class="icon">
+                  &#9888;
+                </span>
+                alert</a>
+            </li>
 
 
+            <li class="list-item"><a href="/pages/components/badge.html">
+                <span class="icon">
+                  &#9313;
+                </span>
+                badge</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="drawer-sub">
+          <h5 class="heading list-heading">P1 components</h5>
+          <ul class="list list-stacked  drawer-content">
+            <li class="list-item"><a href="/pages/components/list.html">
+                <span class="icon">
+                  &#8694;
+                </span>
+                list</a>
+            </li>
+
+            <li class="list-item"><a href="/pages/components/navigation.html">
+                <span class="icon">
+                  &#11134;
+                </span>
+                navigation</a>
+            </li>
+
+
+
+            <li class="list-item"><a href="/pages/components/rating.html">
+                <span class="icon">
+                  &#9734;
+                </span>
+                Ratings</a>
+            </li>
+
+
+
+            <li class="list-item"><a href="/pages/components/text.html">
+                <span class="icon">
+                  &#9417;
+                </span>
+                text</a>
+            </li>
+
+          </ul>
+        </li>
+      </ul>
+    </aside>
+
+    <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/621262f15362a500156c2bf0" frameborder="0"></iframe>
   </main>
 
 
@@ -141,7 +173,7 @@
   <footer>
     <p>Developed by Harshna Haswani</p>
   </footer>
-  <script src="../../scripts/demo.js"></script>
+
 </body>
 
 </html>
