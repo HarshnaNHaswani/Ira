@@ -109,32 +109,41 @@
 
 
   <main class="main-content">
+    <p class="site-docs">To implement a rating component, create a wrapper element and add the class <code class="highlight">rating-wrapper</code> to it. Inside the wrapper create the required number of radio buttons with label. Give the desired icon inside the label element.</p>
+    <p class="site-docs">To create rating with primary/secondary colors, add the class <code class="highlight">wrap-primary</code> to the wrapper. To create rating with other colors, add the class <code class="highlight">wrap-color</code> to the wrapper.</p>
+    <p class="site-docs">To set the color of the color wrapper, use the following CSS properties
+      <h3 class="heading list-heading site-docs">CSS properties for wrap-color</h3>
+      <ul class="list list-bulleted">
+        <li class="list-item"><code>  --color-rating-before:  &lt;color>;</code></li>
+        <li class="list-item"><code>--color-rating-after: &lt;color>;</code></li>
+      </ul>
+    </p>
     <div class="rating-wrapper wrap-color">
-        <input type="radio" name="rating" id="star-1">
-        <label for="star-1">✫</label>
-        <input type="radio" name="rating" id="star-2">
-        <label for="star-2">✫</label>
-        <input type="radio" name="rating" id="star-3">
-        <label for="star-3">✫</label>
-        <input type="radio" name="rating" id="star-4">
-        <label for="star-4">✫</label>
         <input type="radio" name="rating" id="star-5">
         <label for="star-5">✫</label>
+        <input type="radio" name="rating" id="star-4">
+        <label for="star-4">✫</label>
+        <input type="radio" name="rating" id="star-3">
+        <label for="star-3">✫</label>
+        <input type="radio" name="rating" id="star-2">
+        <label for="star-2">✫</label>
+        <input type="radio" name="rating" id="star-1">
+        <label for="star-1">✫</label>
     </div>
 
     <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/620f504c14fadf0015661db1"  frameborder="0"></iframe>
 
     <div class="rating-wrapper wrap-primary">
-        <input type="radio" name="rating-2" id="solid-star-1">
-        <label for="solid-star-1">★</label>
-        <input type="radio" name="rating-2" id="solid-star-2">
-        <label for="solid-star-2">★</label>
-        <input type="radio" name="rating-2" id="solid-star-3">
-        <label for="solid-star-3">★</label>
-        <input type="radio" name="rating-2" id="solid-star-4">
-        <label for="solid-star-4">★</label>
         <input type="radio" name="rating-2" id="solid-star-5">
         <label for="solid-star-5">★</label>
+        <input type="radio" name="rating-2" id="solid-star-4">
+        <label for="solid-star-4">★</label>
+        <input type="radio" name="rating-2" id="solid-star-3">
+        <label for="solid-star-3">★</label>
+        <input type="radio" name="rating-2" id="solid-star-2">
+        <label for="solid-star-2">★</label>
+        <input type="radio" name="rating-2" id="solid-star-1">
+        <label for="solid-star-1">★</label>
     </div>
 
     <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/620f509a14fadf0015661db2" frameborder="0"></iframe>

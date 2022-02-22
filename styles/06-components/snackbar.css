@@ -3,20 +3,21 @@
   align-items: center;
   padding: 0 10px;
   position: fixed;
-  bottom: 2%;
-  left: 50%;
-  transform: translateX(-50%);
   border-radius: 10px;
   font-weight: 200;
   z-index: 99999;
   width: max-content;
 }
 
-.snackbar *{
+.snackbar {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
+.baseline {
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
 
 .leading{
   bottom: 15%;
@@ -26,7 +27,9 @@
 
 .stacked{
   flex-direction: column;
+  left: 50%;
   bottom: 30%;
+  transform: translate(-50%, 0);
 }
 .stacked .action-buttons
 .stacked .actions{

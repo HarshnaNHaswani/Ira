@@ -12,10 +12,8 @@
 .actions {
   display: flex;
   flex-wrap: wrap;
-}
-
-.actions {
-  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .cards {
@@ -177,4 +175,24 @@
 .card-container img {
   margin: 0;
   padding: 0;
+}
+
+.card-actions .btn {
+  margin: 5px;
+}
+.card-horizontal .actions {
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.action-buttons,
+.action-icons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  gap: 2ch;
+}
+
+.card-horizontal .action-buttons,
+.card-horizontal .action-icons{
+  gap: 1ch;
 }

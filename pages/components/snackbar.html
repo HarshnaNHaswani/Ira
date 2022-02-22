@@ -11,16 +11,16 @@
   <title> Ira — Snackbar</title>
 
   <link rel="stylesheet" href="/styles/main.css">
-  
+
 </head>
 
 <body class="docs ">
 
 
   <nav class="nav-main bg-primary">
-  <a class="logo" href="/">
-    <img src="/assets/logo.png" alt="Ira">
-  </a>
+    <a class="logo" href="/">
+      <img src="/assets/logo.png" alt="Ira">
+    </a>
     <ul>
 
       <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item"> <a
@@ -68,8 +68,8 @@
 
 
         <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
-        
-        
+
+
         <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
 
 
@@ -109,37 +109,39 @@
 
 
   <main class="main-content snackbar-display">
-    <button class = "btn bg-secondary snackbar-eg">Display Snackbar</button>
-    <div class="snackbar bg-primary hidden">
-    <p>This is Baseline Snackbar</p>
-    <section class="actions">
-      <section class="action-buttons">
-        <button class="btn outline-secondary">X</button>
-        <button id="snackbar-act" class="btn status-error-bg">Action</button>
+    <p class="site-docs">Snackbars are also known as toasts. Snackbard are similar to modals. The key difference is that they don't interrupt the user's interction with the system and fade away after a while. They need not have action buttons</p>
+    <p class="sitedocs">To create a basic snackbar, add the class, <code class="highlight">snackbar</code> to the element.</p> 
+    <h3 class="site-docs list-heading heading">Second Class</h3>
+    <ul class="list list-bulleted">
+      <li class="list-item"><code>baseline</code></li>
+      <li class="list-item"><code>leading</code></li>
+      <li class="list-item"><code>stacked</code></li>
+    </ul>
+    <button class="btn bg-secondary snackbar-eg">Display Snackbar</button>
+    <div class="snackbar baseline bg-primary hidden">
+      <p>This is Baseline Snackbar</p>
+    </div>
+    <div class="snackbar leading status-info-bg hidden">
+      <p>This is Leading Snackbar</p>
+      <section class="actions">
+        <section class="action-buttons">
+          <button class="btn outline-primary">X</button>
+          <button id="snackbar-act" class="btn bg-primary">Action</button>
+        </section>
       </section>
-    </section>
-  </div>
-  <div class="snackbar leading status-info-bg hidden">
-    <p>This is Leading Snackbar</p>
-    <section class="actions">
-      <section class="action-buttons">
-        <button class="btn outline-primary">X</button>
-        <button id="snackbar-act" class="btn bg-primary">Action</button>
-      </section>
-    </section>
-  </div>
+    </div>
 
-  <div class="snackbar stacked bg-secondary hidden">
-    <p>This is Stacked Snackbar</p>
-    <section class="actions">
-      <section class="action-buttons">
-        <button class="btn outline-primary">X</button>
-        <button id="snackbar-act" class="btn bg-primary">Action</button>
+    <div class="snackbar stacked bg-secondary hidden">
+      <p>This is Stacked Snackbar</p>
+      <section class="actions">
+        <section class="action-buttons">
+          <button class="btn outline-primary">X</button>
+          <button id="snackbar-act" class="btn bg-primary">Action</button>
+        </section>
       </section>
-    </section>
-  </div>
+    </div>
 
-  <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/620fdce014fadf0015661e22"  frameborder="0"></iframe>
+    <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/620fdce014fadf0015661e22" frameborder="0"></iframe>
   </main>
 
 
@@ -150,4 +152,5 @@
 
   <script src="../../scripts/demo.js"></script>
 </body>
+
 </html>

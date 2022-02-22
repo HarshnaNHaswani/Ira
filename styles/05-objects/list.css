@@ -1,8 +1,6 @@
 :root {
-  --list-number-style: '\1';
   --list-bullet-style: '\27A5';
-  --list-number-family: '';
-  /* --list-bullet-family: ''; */
+  --list-bullet-family: '';
   --list-bullet-color: inherit;
   --list-bullet-size: 0.8em;
   --list-item-bullet-space: 4ch;

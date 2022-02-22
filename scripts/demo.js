@@ -5,7 +5,6 @@ const btnModalStacked = document.querySelectorAll('.modal-demo2');
 const modalSimple = document.querySelector('.modal-simple')
 const modalStacked = document.querySelector('.modal-stacked')
 
-
 if (btnSnackbar) {
   btnSnackbar.addEventListener('click', () => {
       snackbars.forEach(snackbar => classToggle(snackbar));
