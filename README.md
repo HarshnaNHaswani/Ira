@@ -12,7 +12,7 @@ TEXT COLOR PROPERTIES FOR BACKGROUND
 --color-accent-inverse
 --color-text
 
-Alerts
+## Alerts
 
 Alerts are used to display short, important message to the user. To implement this functionality, add the alert class to your <p> tag
 
@@ -27,8 +27,8 @@ status-error-bg
 status-success-bg
 To adjust the color of any of the above status classes, in your stylesheet do :root { --color-status-success: <color>; --color-inverse-status-success: <color>; } . This will change the the color wherever you use the status class, that is, in status-warning-outline (borders), status-warning-bg (bacground), and status-warning (text) classes. The inverse --color-inverse-status-warning property is used to provide appropriate text color against the status background.
 
-  
-ay notifs, and status. To implement this functionality, add the badge-wrapper class to the <div> tag. Inside this wrapper div, give the avatar/ icon. Also, give a <span>tag with class badge to add the badge.
+## Badge
+To implement this functionality, add the badge-wrapper class to the <div> tag. Inside this wrapper div, give the avatar/ icon. Also, give a <span>tag with class badge to add the badge.
 
 To know more about avatar, see Avatar. For icons, add class icon to the tag.
 
@@ -60,7 +60,7 @@ Position classes are used to set the position of the badge on the required compo
 badge-left
 badge-right
   
-BUTTONS
+## BUTTONS
  To give a basic design to the buttons, add the btn class to the <button> tag.
 
 Additional Classes
@@ -74,9 +74,11 @@ outline-accent
 outline-default
 The outline buttons can be used for the alternate choice buttons. The default button is based on the web app's background and text colors and blends in with it. The outline buttons also get their text color from the site's text color. The background buttons have their own text properties. 
   
+## Input
+  
 Inputs are used to display get data from the user. To implement this functionality, wrap the input element. On the wrapper, add the form-item class. To the <input type="text"> tag, give the class form-input.
   
-LIST
+## LIST
 To implement the list functionality, add the list class to the <ul> tag. Also, add the style class to specify the style of the list.
   
 
@@ -85,7 +87,7 @@ list-bulleted
 list-inline
 list-stacked
   
-Avatar
+## Avatar
 Avatars are used to represent users in a virtual community. They can be the user's picture or graphical illustrations. To implement this functionality, add the avatar class to the <img> tag
 
 Additional Classes
@@ -97,12 +99,12 @@ avatar-sm
 avatar-md
 avatar-lg
   
-grid
+## grid
 Grid component is used to create a matrix of elements. Ira provides two basic column layouts for grid - grid foe two columns and grid for 3 columns. To implement this, add the grid-container class to the wrapper. To each child, give the grid-child class. Wrappers can be <div> or <section> elements. Child elements can be images, cards, etc.
 
 To make a two column grid layout add the class grid-col2 to the wrapper. Similarly, to make a three column grid layout add the class grid-col3 to the wrapper.
 
- MODAL
+## MODAL
  modal class to the wrapper element.
 
 Additional Classes
@@ -110,18 +112,18 @@ SECOND CLASS OF WRAPPER
 modal-simple
 modal-stacked
   
-NAV
+## NAV
  add the nav class to the <nav; tag. Also add a second class to specify the type of navigation.
 
 SECOND CLASS FOR NAV
 nav-site
 nav-scrolling
                                 
-<IMG> ELEMENT
+## <IMG> ELEMENT
 img-round
 img-responsive
   
-CARD CLASSES
+## CARD CLASSES
 card-container
 Card Type Class
 card-primary-content
@@ -140,11 +142,13 @@ card-icons-only
 card-horizontal
 card-thumbnail
   
-Rating
+## Rating
 To implement a rating component, create a wrapper element and add the class rating-wrapper to it. Inside the wrapper create the required number of radio buttons with label. Give the desired icon inside the label element.
 
 To create rating with primary/secondary colors, add the class wrap-primary to the wrapper. To create rating with other colors, add the class wrap-color to the wrapper.
   
+## Snackbar
+
 Snackbars are also known as toasts. Snackbard are similar to modals. The key difference is that they don't interrupt the user's interction with the system and fade away after a while. They need not have action buttons
 
 To create a basic snackbar, add the class, snackbar to the element.
@@ -154,29 +158,31 @@ baseline
 leading
 stacked
   
-HEADINGS
+## HEADINGS
 headings
 heading-xs
 heading-sm
 heading-md
 heading-lg
 heading-xl
-TEXT
+## TEXT
 text
 text-xs
 text-sm
 text-md
 text-lg
 text-xl
-GRAY TEXT
+
+## GRAY TEXT
 grey-text
-CENTERED TEXT
+
+## CENTERED TEXT
 center-x
 center-y
 center-xy
   
   
-STATUS CLASSES
+## STATUS CLASSES
 
 status-available-bg
 status-busy-bg
@@ -188,3 +194,13 @@ status-info-bg
 status-warning-bg
 status-error-bg
 status-success-bg
+
+Other Classes
+- highlight
+- underline
+- round
+- hidden 
+- no-expansion
+- uppercase
+- iframe-small
+- site-docs
