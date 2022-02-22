@@ -21,3 +21,40 @@
   list-style-type:circle;
 }
 
+.nav-hidden{
+  display: block;
+}
+
+.hamburger {
+  margin-right: auto;
+  display: none;
+}
+@media screen and (max-width: 60em) {
+  .nav-main ul{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .hamburger{
+    display: block;
+  }
+  .nav-hidden{
+    display: none;
+  }
+  .main-content {
+    max-width: clamp(55ch, 65ch, 80vw);
+    font-size: 0.75em;
+  }
+  iframe {
+    max-width: 80vw;
+  }
+  .nav-side {
+    background-color: var(--color-primary);
+    color: var(--color-primary-inverse);
+    width: 60vw;
+    height: 60vh;
+    margin-left: 20vw;
+    z-index: 2;
+    box-shadow: 0 0 0 100vw #0005;
+    overflow: scroll;
+  }
+}
