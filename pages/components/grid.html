@@ -18,90 +18,84 @@
 
 
   <nav class="nav-main bg-primary">
-  <a class="logo" href="/">
-    <img src="/assets/logo.png" alt="Ira">
-  </a>
+    <a class="logo" href="/">
+      <img src="/assets/logo.png" alt="Ira">
+    </a>
     <ul>
 
-      <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item"> <a
-            href=/pages/docs.html>Documentation </a> </li> <li class="nav-list-item"> <a
-              href=/pages/installation.html>Installation </a> </li> <li class="nav-list-item"> <a
-                href="https://github.com/HarshnaNHaswani/Ira">GitHub</a></li>
+      <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item">
+          <button class="hamburger">Documentation</button>
+          <aside>
+            <nav class="nav-side nav-hidden">
+              <ul>
+
+                <li class="nav-list-item"><a href="/pages/docs.html">Docs Main</a></li>
+
+
+                <li class="nav-list-item"><a href="/pages/components/alert.html">alert</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/badge.html">badge</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/button.html">button</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/input.html">input</a></li>
+
+
+                <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/image.html">image</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
+
+                <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/card.html">card</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/list.html">list</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/navigation.html">navigation</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/rating.html">Ratings</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/snackbar.html">Snackbar</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/text.html">text</a></li>
+
+
+              </ul>
+            </nav>
+          </aside>
+      </li>
+      <li class="nav-list-item"> <a href=/pages/installation.html>Installation </a> </li> <li class="nav-list-item"> <a
+            href="https://github.com/HarshnaNHaswani/Ira">GitHub</a></li>
     </ul>
   </nav>
-
-
-  <button class="hamburger btn bg-accent">UI Components</button>
-  <aside>
-    <nav class="nav-side nav-hidden">
-      <ul>
-
-        <li class="nav-list-item"><a href="/pages/components/alert.html">alert</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/badge.html">badge</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/button.html">button</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/input.html">input</a></li>
-
-
-
-
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/image.html">image</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
-        
-        
-        <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/card.html">card</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/list.html">list</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/navigation.html">navigation</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/rating.html">Ratings</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/snackbar.html">Snackbar</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/text.html">text</a></li>
-
-
-      </ul>
-    </nav>
-  </aside>
-
 
   <header>
     <h1 clss="page-title">grid</h1>
@@ -109,11 +103,12 @@
 
 
 
-  <main class="main-content">
+  <main class="main-content padding-x-xl">
+<button class="btn btn-link bg-accent"><a class="text text-md" href="">Install file</a></button>
     <p class="site-docs">Grid component is used to create a matrix of elements. Ira provides two basic column layouts for grid - grid foe two columns and grid for 3 columns. To implement this, add the <code class="highlight">grid-container</code> class to the wrapper. To each child, give the <code class="highlight">grid-child</code> class. Wrappers can be &lt;div> or &lt;section> elements. Child elements can be images, cards, etc.</p>
     <p class="site-docs">To make a two column grid layout add the class <code>grid-col2</code> to the wrapper. Similarly, to make a three column grid layout add the class <code>grid-col3</code> to the wrapper.</p>
 
-    <p class="site-docs"><em>Note: Borders are used only for dislay purpose</em></p> 
+    <span class="site-docs status-info-bg"><em>Note: Borders are used only for dislay purpose</em></span> 
     <section class="grid-demo grid-container grid-cols2">
       <p class="grid-child">This is child 1</p>
       <p class="grid-child">This is child 2</p>

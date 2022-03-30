@@ -10,7 +10,7 @@ body {
 
 .heading ,
 .text {
-  line-height: 1.75;
+  line-height: 1.75em;
   text-align: center;
 }
 
@@ -45,4 +45,14 @@ h4.site-docs {
 
 .list-item code {
   text-transform: lowercase;
+}
+
+.bg-accent .text {
+  font-weight: 500;
+  color: inherit;
+}
+
+.site-docs.status-info-bg {
+  padding: 0.5em;
+  font-size: 1.2em;
 }

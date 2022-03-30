@@ -23,90 +23,85 @@
     </a>
     <ul>
 
-      <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item"> <a
-            href=/pages/docs.html>Documentation </a> </li> <li class="nav-list-item"> <a
-              href=/pages/installation.html>Installation </a> </li> <li class="nav-list-item"> <a
-                href="https://github.com/HarshnaNHaswani/Ira">GitHub</a></li>
+      <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item">
+          <button class="hamburger">Documentation</button>
+          <aside>
+            <nav class="nav-side nav-hidden">
+              <ul>
+
+                <li class="nav-list-item"><a href="/pages/docs.html">Docs Main</a></li>
+
+
+                <li class="nav-list-item"><a href="/pages/components/alert.html">alert</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/badge.html">badge</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/button.html">button</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/input.html">input</a></li>
+
+
+                <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/image.html">image</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
+
+                <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/card.html">card</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/list.html">list</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/navigation.html">navigation</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/rating.html">Ratings</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/snackbar.html">Snackbar</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/text.html">text</a></li>
+
+
+              </ul>
+            </nav>
+          </aside>
+      </li>
+      <li class="nav-list-item"> <a href=/pages/installation.html>Installation </a> </li> <li class="nav-list-item"> <a
+            href="https://github.com/HarshnaNHaswani/Ira">GitHub</a></li>
     </ul>
   </nav>
-
-
-  <button class="hamburger btn bg-accent">UI Components</button>
-  <aside>
-    <nav class="nav-side nav-hidden">
-      <ul>
-
-        <li class="nav-list-item"><a href="/pages/components/alert.html">alert</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/badge.html">badge</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/button.html">button</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/input.html">input</a></li>
-
-
-
-
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/image.html">image</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
-        
-        
-        <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/card.html">card</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/list.html">list</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/navigation.html">navigation</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/rating.html">Ratings</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/snackbar.html">Snackbar</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/text.html">text</a></li>
-
-
-      </ul>
-    </nav>
-  </aside>
-
 
   <header>
     <h1 clss="page-title">input</h1>
   </header>
-    <main class="main-content">
+    <main class="main-content padding-x-xl">
+<button class="btn btn-link bg-accent"><a class="text text-md" href="">Install file</a></button>
 
      <p class="site-docs">Inputs are used to display get data from the user. To implement this functionality, wrap the input element. On the wrapper, add the <span class="highlight">form-item</span> class. To the <code>&lt;input type="text"></code> tag, give the class <span class="highlight">form-input</span>.</p>
     <p class="status-info-bg site-docs">Note: Add the <span class="underline">form-input</span> class only to text inputs and not to radio buttons, checkboxes, range slider etc.</p>
@@ -133,7 +128,6 @@
     </p>
 
 
-  <main class="main-content">
     <form action="#" class="form">
       <div class="form-item status-success-outline">
         <input type="text" class="form-input" placeholder="name" aria-label="name" autocomplete="name">
