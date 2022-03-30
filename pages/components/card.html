@@ -23,78 +23,79 @@
     </a>
     <ul>
 
-      <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item"> <a
-            href=/pages/docs.html>Documentation </a> </li> <li class="nav-list-item"> <a
-              href=/pages/installation.html>Installation </a> </li> <li class="nav-list-item"> <a
-                href="https://github.com/HarshnaNHaswani/Ira">GitHub</a></li>
+      <li class="nav-list-item"> <a href=/pages/about.html>About </a> </li> <li class="nav-list-item">
+          <button class="hamburger">Documentation</button>
+          <aside>
+            <nav class="nav-side nav-hidden">
+              <ul>
+
+                <li class="nav-list-item"><a href="/pages/docs.html">Docs Main</a></li>
+
+
+                <li class="nav-list-item"><a href="/pages/components/alert.html">alert</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/badge.html">badge</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/button.html">button</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/input.html">input</a></li>
+
+
+                <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/image.html">image</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
+
+                <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/card.html">card</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/list.html">list</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/navigation.html">navigation</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/rating.html">Ratings</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/snackbar.html">Snackbar</a></li>
+
+
+
+                <li class="nav-list-item"><a href="/pages/components/text.html">text</a></li>
+
+
+              </ul>
+            </nav>
+          </aside>
+      </li>
+      <li class="nav-list-item"> <a href=/pages/installation.html>Installation </a> </li> <li class="nav-list-item"> <a
+            href="https://github.com/HarshnaNHaswani/Ira">GitHub</a></li>
     </ul>
   </nav>
-
-
-  <button class="hamburger btn bg-accent">UI Components</button>
-  <aside>
-    <nav class="nav-side nav-hidden">
-      <ul>
-
-        <li class="nav-list-item"><a href="/pages/components/alert.html">alert</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/badge.html">badge</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/button.html">button</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/input.html">input</a></li>
-
-
-        <li class="nav-list-item"><a href="/pages/components/avatar.html">avatar</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/grid.html">grid</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/image.html">image</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/modal.html">Modal</a></li>
-        
-        <li class="nav-list-item"><a href="/pages/components/drawer.html">Drawer</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/card.html">card</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/list.html">list</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/navigation.html">navigation</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/rating.html">Ratings</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/snackbar.html">Snackbar</a></li>
-
-
-
-        <li class="nav-list-item"><a href="/pages/components/text.html">text</a></li>
-
-
-      </ul>
-    </nav>
-  </aside>
 
 
   <header>
@@ -103,265 +104,376 @@
 
 
 
-  <main class="main-content">
-  
-    <h3 class="heading site-docs list-heading">Card Classes</h3>
+  <main class="main-content padding-x-xl">
+    <button class="btn btn-link bg-accent"><a class="text text-md"
+        href="https://design-with-ira.netlify.app/styles/06-components/card.css">Install Button file</a></button>
+    <h3 class="heading heading-xs list-heading">Additonal Installations</h3>
+    <ul class="list">
+      <li class="list-item"><a class="text text-md"
+          href="https://design-with-ira.netlify.app/styles/04-elements/elements.css">Base Element</a></li>
+      <li class="list-item"><a class="text text-md" href="./button.html">Button Installations</a></li>
+      <li class="list-item"><a class="text text-md" href="./badge.html">Badge Installations</a></li>
+      <li class="list-item"><a class="text text-md" href="./text.html">Text Installations</a></li>
+      <li class="list-item"><a class="text text-md"
+          href="https://design-with-ira.netlify.app/styles/99-trumps/utils.css">Spacing Utils</a></li>
+    </ul>
+
+    <h3 class="heading site-docs list-heading">Required Classes</h3>
     <ul class="list list-bulleted">
       <li class="list-item"><code>card-container</code></li>
       <li class="list-item">card type class</li>
-      <li class="list-item"><code>card-primary-content</code></li>
-      <li class="list-item"><code>media</code></li>
       <li class="list-item"><code>card-header</code></li>
+      <li class="list-item"><code>card-media</code></li>
       <li class="list-item"><code>card-body</code></li>
-      <li class="list-item"><code>actions</code></li>
-      <li class="list-item"><code>action-buttons</code></li>
-      <li class="list-item"><code>action-icons</code></li>
+      <li class="list-item"><code>card-actions</code></li>
     </ul>
-    <h3 class="heading site-docs list-heading">Card type classes</h3>
+    <h3 class="heading site-docs list-heading">Optional Classes</h3>
     <ul class="list list-bulleted">
-      <li class="list-item"><code>card-basic</code></li>
-      <li class="list-item"><code>card-title-float</code></li>
-      <li class="list-item"><code>card-title-top</code></li>
-      <li class="list-item"><code>card-buttons-only</code></li>
-      <li class="list-item"><code>card-icons-only</code></li>
-      <li class="list-item"><code>card-horizontal</code></li>
-      <li class="list-item"><code>card-thumbnail</code></li>
+      <li class="list-item"><code>card-media</code></li>
+      <li class="list-item"><code>card-body</code></li>
+      <li class="list-item"><code>card-actions</code></li>
     </ul>
-    <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/621263855362a500156c2bf5"  frameborder="0"></iframe>
-    
+    <h3 class="heading-xs site-docs underline">Card Type Classes</h3>
+    <h3 class="heading site-docs list-heading">Base type classes</h3>
+    <ul class="list list-bulleted">
+      <li class="list-item"><code>card-text-only</code></li>
+      <li class="list-item"><code>card-vertical</code></li>
+      <li class="list-item"><code>card-horizontal</code></li>
+    </ul>
+
+    <h3 class="heading site-docs list-heading">Add-ons</h3>
+    <ul class="list list-bulleted">
+      <li class="list-item"><code>card-dismiss</code></li>
+      <li class="list-item"><code>card-with-overlay</code></li>
+      <li class="list-item"><code>card-shadow</code></li>
+      <li class="list-item"><code>badge-wrapper</code></li>
+    </ul>
+
+
+    <h3 class="heading-xs site-docs underline">Other Classes</h3>
+    <ul class="list list-bulleted">
+      <li class="list-item"><code>badge</code></li>
+      <li class="list-item">Badge position class</li>
+      <li class="list-item">Badge size class</li>
+      <li class="list-item"><code>btn</code></li>
+      <li class="list-item">button type class</li>
+      <li class="list-item">button color class</li>
+      <li class="list-item"><code>text-overlay</code></li>
+      <li class="list-item">text and heading classes</li>
+    </ul>
+
+    <p class="site-docs status-info-bg"><em>Note: For card-dismiss, card-with-overlay, card-shadow and badge classes
+        mentioning the base type class is mandatory.</em></p>
+    <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/621263855362a500156c2bf5" frameborder="0"></iframe>
+
     <section class="cards">
-      <div class="card-container card-basic">
-        <section class="card-primary-content">
-          <figure class="media">
-            <img src="https://picsum.photos/400/200" alt="img">
-            <figcaption>This is img caption</figcaption>
-          </figure>
+      <div class="card-container card-text-only" title="card - text only">
+        <section class="card-content">
           <header class="card-header">
-            <h2>Title - Basic</h2>
+            <h2 class="heading-sm">Carnations</h2>
+            <p class="text-xs">Eurasian Native</p>
           </header>
-          <p class="card-body">
-            This hold the summary/ description
-          </p>
-        </section>
-        <section class="actions card-actions">
-          <section class="action-buttons">
-            <button class="btn bg-primary"><a href="/">Action 1</a></button>
-            <button class="btn outline-primary"><a href="/">Action 2</a></button>
-          </section>
-          <section class="action-icons">
-            <button class="btn btn-icon">
-              <span><img src="/assets/like.svg" alt="like" class="icon"></span>
-              Like
-            </button>
-
-            <button class="btn btn-icon">
-              <span><img src="/assets/share.svg" alt="share" class="icon"></span>
-              Share
-            </button>
-
-          </section>
-        </section>
-      </div>
-      <div class="card-container card-title-float">
-        <section class="card-primary-content">
-          <figure class="media">
-            <img src="https://picsum.photos/400/200" alt="img">
-            <figcaption>This is img caption</figcaption>
-          </figure>
-          <header class="card-header">
-            <h2>Title - On Image</h2>
-          </header>
-          <p class="card-body">
-            This hold the summary/ description
-          </p>
-        </section>
-        <section class="actions card-actions">
-          <section class="action-buttons">
-            <button class="btn bg-primary"><a href="/">Action 1</a></button>
-            <button class="btn outline-primary"><a href="/">Action 2</a></button>
-          </section>
-          <section class="action-icons">
-            <button class="btn btn-icon">
-              <span><img src="/assets/like.svg" alt="like" class="icon"></span>
-              Like
-            </button>
-
-            <button class="btn btn-icon">
-              <span><img src="/assets/share.svg" alt="share" class="icon"></span>
-              Share
-            </button>
-
-          </section>
-        </section>
-      </div>
-      <div class="card-container card-title-top">
-        <section class="card-primary-content">
-          <figure class="media">
-            <img src="https://picsum.photos/400/200" alt="img">
-            <figcaption>This is img caption</figcaption>
-          </figure>
-          <header class="card-header">
-            <h2>Title - Top</h2>
-          </header>
-          <p class="card-body">
-            This hold the summary/ description
-          </p>
-        </section>
-        <section class="actions card-actions">
-          <section class="action-buttons">
-            <button class="btn bg-primary"><a href="/">Action 1</a></button>
-            <button class="btn outline-primary"><a href="/">Action 2</a></button>
-          </section>
-          <section class="action-icons">
-            <button class="btn btn-icon">
-              <span><img src="/assets/like.svg" alt="like" class="icon"></span>
-              Like
-            </button>
-
-            <button class="btn btn-icon">
-              <span><img src="/assets/share.svg" alt="share" class="icon"></span>
-              Share
-            </button>
-
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
           </section>
         </section>
       </div>
 
-      <div class="card-container card-buttons-only">
-        <section class="card-primary-content">
-          <figure class="media">
-            <img src="https://picsum.photos/400/200" alt="img">
-            <figcaption>This is img caption</figcaption>
-          </figure>
-          <header class="card-header">
-            <h2>Title - Action Butons Only</h2>
-          </header>
-          <p class="card-body">
-            This hold the summary/ description
-          </p>
+      <div class="card-container card-vertical" title="card - vertical">
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
         </section>
-        <section class="actions card-actions">
-          <section class="action-buttons">
-            <button class="btn bg-primary"><a href="/">Action 1</a></button>
-            <button class="btn outline-primary"><a href="/">Action 2</a></button>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
           </section>
-          <section class="action-icons">
-            <button class="btn btn-icon">
-              <span><img src="/assets/like.svg" alt="like" class="icon"></span>
-              Like
-            </button>
-
-            <button class="btn icon">
-              <span><img src="/assets/share.svg" alt="share" class="icon"></span>
-              Share
-            </button>
-
-          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
         </section>
       </div>
 
-      <div class="card-container card-icons-only">
-        <section class="card-primary-content">
-          <figure class="media">
-            <img src="https://picsum.photos/400/200" alt="img">
-            <figcaption>This is img caption</figcaption>
-          </figure>
-          <header class="card-header">
-            <h2>Title - Action Icons Only</h2>
-          </header>
-          <p class="card-body">
-            This hold the summary/ description
-          </p>
+      <div class="card-container card-horizontal" title="card - horizontal">
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
         </section>
-        <section class="actions card-actions">
-          <section class="action-buttons">
-            <button class="btn bg-primary"><a href="/">Action 1</a></button>
-            <button class="btn outline-primary"><a href="/">Action 2</a></button>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
           </section>
-          <section class="action-icons">
-            <button class="btn btn-icon">
-              <span><img src="/assets/like.svg" alt="like" class="icon"></span>
-              Like
-            </button>
-
-            <button class="btn btn-icon">
-              <span><img src="/assets/share.svg" alt="share" class="icon"></span>
-              Share
-            </button>
-
-          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
         </section>
       </div>
 
-      <div class="card-container card-horizontal">
-        <section class="card-primary-content">
-          <figure class="media">
-            <img src="https://picsum.photos/400/200" alt="img">
-            <figcaption>This is img caption</figcaption>
-          </figure>
-          <header class="card-header">
-            <h2>Title - Horizontal Card</h2>
-          </header>
-          <p class="card-body">
-            This hold the summary/ description
-          </p>
+      <div class="card-container card-vertical" title="card - vertical - heading only">
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
         </section>
-        <section class="actions card-actions">
-          <section class="action-buttons">
-            <button class="btn bg-primary"><a href="/">Action 1</a></button>
-            <button class="btn outline-primary"><a href="/">Action 2</a></button>
-          </section>
-          <section class="action-icons">
-            <button class="btn btn-icon">
-              <span><img src="/assets/like.svg" alt="like" class="icon"></span>
-              Like
-            </button>
-
-            <button class="btn btn-icon">
-              <span><img src="/assets/share.svg" alt="share" class="icon"></span>
-              Share
-            </button>
-
-          </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
         </section>
       </div>
 
-      <div class="card-container card-thumbnail">
-        <section class="card-primary-content">
-          <figure class="media">
-            <img src="https://picsum.photos/400/200" alt="img">
-            <figcaption>This is img caption</figcaption>
-          </figure>
-          <header class="card-header">
-            <figure class="thumbnail">
-              <img src="https://picsum.photos/400/200" alt="img">
-            </figure>
-            <h2>Title - thumbnail</h2>
-          </header>
-          <p class="card-body">
-            This hold the summary/ description
-          </p>
+      <div class="card-container card-horizontal" title="card - horizontal - heading only">
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
         </section>
-        <section class="actions card-actions">
-          <section class="action-buttons">
-            <button class="btn bg-primary"><a href="/">Action 1</a></button>
-            <button class="btn outline-primary"><a href="/">Action 2</a></button>
-          </section>
-          <section class="action-icons">
-            <button class="btn btn-icon">
-              <span><img src="/assets/like.svg" alt="like" class="icon"></span>
-              Like
-            </button>
-
-            <button class="btn btn-icon">
-              <span><img src="/assets/share.svg" alt="share" class="icon"></span>
-              Share
-            </button>
-
-          </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
         </section>
       </div>
 
+
+      <div class="card-container card-horizontal card-dismiss" title="card - with dismiss - horizontal">
+        <button class="btn btn-dismiss">x</button>
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
+        </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
+          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
+        </section>
+      </div>
+      <div class="card-container card-vertical card-dismiss" title="card - with dismiss - vertical">
+        <button class="btn btn-dismiss">x</button>
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
+        </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
+          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
+        </section>
+      </div>
+
+      <div class="card-container card-vertical badge-wrapper" title="card - with badge">
+        <p class="badge badge-left badge-md status-success-bg">BestSeller!</p>
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
+        </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
+          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
+        </section>
+      </div>
+      
+      <div class="card-container card-horizontal badge-wrapper" title="card - with badge">
+        <p class="badge badge-left badge-md status-success-bg">BestSeller!</p>
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
+        </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
+          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
+        </section>
+      </div>
+
+      <div class="card-container card-horizontal card-shadow" title="card - with shadow - horizontal">
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
+        </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
+          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
+        </section>
+      </div>
+
+      <div class="card-container card-vertical card-shadow" title="card - with shadow - vertical">
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
+        </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
+          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
+        </section>
+      </div>
+
+      <div class="card-container card-vertical card-with-overlay" title="card - with overlay - vertical">
+        <p class="text text-md text-overlay">Out Of Stock</p>
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
+        </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
+          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
+        </section>
+      </div>
+
+      <div class="card-container card-horizontal card-with-overlay" title="card - with overlay - horizontal">
+        <p class="text text-md text-overlay">Out Of Stock</p>
+        <section class="card-media">
+          <img src="../../assets/card-demo.jpg" alt="Card Demo">
+        </section>
+        <section class="card-content">
+          <header class="card-header">
+            <h2 class="heading heading-sm">Carnations</h2>
+            <p class="text text-xs">Eurasian Native</p>
+          </header>
+          <section class="card-body">
+            <p>Carnations are known as the "The Flowers of God". The single flowers of the Carnations species, Dianthus
+              Caryophyllus have 5 petals and vary from white to pink to purple in color. Border Carnation cultivars may
+              have double flowers with as many as 40 petals. They come in numerous colors and each color of carnation
+              has a different meaning. The Carnation leaves are narrow and stalk less and their color varies from green
+              to grey-blue or purple. Carnations grow big, full blooms on strong, straight stems.</p>
+            <p>Quantity: 12</p>
+            <p>Price: ₹600</p>
+          </section>
+          <footer class="card-actions">
+            <button class="btn btn-link outline-primary" title="secondary button"><a href="">Add to
+                wishlist</a></button>
+            <button class="btn btn-link bg-primary" title="primary button"><a href="">Buy Now</a></button>
+          </footer>
+        </section>
+      </div>
     </section>
   </main>
 
@@ -371,7 +483,7 @@
     <p>Developed by Harshna Haswani</p>
   </footer>
 
-  <script src="../../scripts/site-nav-side.js"></script> 
+  <script src="../../scripts/site-nav-side.js"></script>
 </body>
 
 </html>
