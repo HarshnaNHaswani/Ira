@@ -1,5 +1,4 @@
 const btnSnackbar = document.querySelector('.snackbar-eg');
-const btnSnackbar = document.querySelector('.snackbar-eg');
 const snackbars = document.querySelectorAll('.snackbar');
 const btnModalSimple = document.querySelectorAll('.modal-demo1');
 const btnModalStacked = document.querySelectorAll('.modal-demo2');

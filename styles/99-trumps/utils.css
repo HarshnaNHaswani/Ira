@@ -27,3 +27,103 @@
   letter-spacing: 1.2px;
   font-size: 0.75em;
 }
+/* spacing x, y, xy */
+
+/* margin */
+.gutter-y-xs {
+  margin: 8px 0;
+}
+.gutter-y-sm {
+  margin: 1rem 0;
+}
+.gutter-y-md {
+  margin: 2rem 0;
+}
+.gutter-y-lg {
+  margin: 3rem 0;
+}
+.gutter-y-xl {
+  margin: 4rem 0;
+}
+
+.gutter-x-xs {
+  margin: 0 8px;
+}
+.gutter-x-sm {
+  margin: 0 1rem;
+}
+.gutter-x-md {
+  margin: 0 2rem;
+}
+.gutter-x-lg {
+  margin: 0 3rem;
+}
+.gutter-x-xl {
+  margin: 0 4rem;
+}
+
+.gutter-xy-xs {
+  margin: 8px;
+}
+.gutter-xy-sm {
+  margin: 1rem;
+}
+.gutter-xy-md {
+  margin: 2rem;
+}
+.gutter-xy-lg {
+  margin: 3rem;
+}
+.gutter-xy-xl {
+  margin: 4rem;
+}
+
+
+/* padding */
+.padding-y-xs {
+  padding: 8px 0;
+}
+.padding-y-sm {
+  padding: 1em 0;
+}
+.padding-y-md {
+  padding: 2em 0;
+}
+.padding-y-lg {
+  padding: 3em 0;
+}
+.padding-y-xl {
+  padding: 4em 0;
+}
+
+.padding-x-xs {
+  padding: 0 8px;
+}
+.padding-x-sm {
+  padding: 0 1em;
+}
+.padding-x-md {
+  padding: 0 2em;
+}
+.padding-x-lg {
+  padding: 0 3em;
+}
+.padding-x-xl {
+  padding: 0 4em;
+}
+
+.padding-xy-xs {
+  padding: 8px;
+}
+.padding-xy-sm {
+  padding: 1em;
+}
+.padding-xy-md {
+  padding: 2em;
+}
+.padding-xy-lg {
+  padding: 3em;
+}
+.padding-xy-xl {
+  padding: 4em;
+}
