@@ -104,25 +104,27 @@
 
 
   <main class="main-content padding-x-xl">
+    <h2>Installation Link</h2>
+    <p>Copy the following to the <code>&lt;head></code>of your HTML</p>
+    <div class="stylesheet-code bg-primary">
+      <code>
+        &lt;link rel="stylesheet" href="https://design-with-ira.netlify.app/installationLinks/badge.css">
+      </code>
+    </div>
 
-    <button class="btn btn-link bg-accent"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/05-objects/badge.css">Install Badge file</a></button>
+    <p class="site-docs">Badges are used to display notifs, and status. To implement this functionality, add the <span
+        class="highlight">badge-wrapper</span> class to the <code>&lt;div></code> tag. Inside this wrapper div, give the
+      avatar/ icon. Also, give a <code>&lt;span></code>tag with class <span class="highlight">badge</span> to add the
+      badge.</p>
 
-    <h3 class="heading heading-xs list-heading">Additonal Installations</h3>
-    <ul class="list">
-    <li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/04-elements/elements.css">Base Element</a></li>
-    <li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/99-trumps/status.css">Status classes</a></li>
-    <li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/05-objects/icon.css">Icon Installation</a></li>
-    <li class="list-item"><a class="text text-md" href="./avatar.html">Avatar Installations</a></li>
-    </ul>
+    <p class="site-docs">To know more about avatar, see <a href="./avatar.html" class="highlight underline">Avatar</a>.
+      For icons, add class <span class="highlight">icon</span> to the tag.</p>
 
-  <p class="site-docs">Badges are used to display notifs, and status. To implement this functionality, add the <span class="highlight">badge-wrapper</span> class to the <code>&lt;div></code> tag. Inside this wrapper div, give the avatar/ icon. Also, give a <code>&lt;span></code>tag with class <span class="highlight">badge</span> to add the badge.</p>
-
-  <p class="site-docs">To know more about avatar, see <a href="./avatar.html" class="highlight underline">Avatar</a>.  For icons, add class <span class="highlight">icon</span> to the tag.</p>
-
-  <p class="site-docs">To make a status badge, leave the badge span empty. For numbered badges, add the required number within the span.</p>
+    <p class="site-docs">To make a status badge, leave the badge span empty. For numbered badges, add the required
+      number within the span.</p>
 
 
-    <h2  class="site-docs">Additional Classes for &lt;span class="badge"></h2>
+    <h2 class="site-docs">Additional Classes for &lt;span class="badge"></h2>
 
     <h3 class="heading list-heading">Size Classes</h3>
     <ul class="list list-bulleted">
@@ -132,7 +134,8 @@
     </ul>
 
     <h3 class="heading list-heading">Status Classes</h3>
-    <p  class="site-docs">These classes add a background to the badges. They may indicate availability or purpose of the badge(for icons)</p>
+    <p class="site-docs">These classes add a background to the badges. They may indicate availability or purpose of the
+      badge(for icons)</p>
     <ul class="list list-bulleted">
       <li class="list-item"><code>status-available-bg</code></li>
       <li class="list-item"><code>status-busy-bg</code></li>
@@ -145,14 +148,17 @@
       <li class="list-item"><code>status-error-bg</code></li>
       <li class="list-item"><code>status-success-bg</code></li>
     </ul>
-    <p  class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
+    <p class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
       <code>
         :root {
-          --color-status-success: &lt;color>;
-          --color-inverse-status-success: &lt;color>;
+        --color-status-success: &lt;color>;
+        --color-inverse-status-success: &lt;color>;
         }
-      </code>. 
-      This will change the the color wherever you use the status class, that is, in status-warning-outline (borders), status-warning-bg (bacground), and status-warning (text) classes. The inverse <code>--color-inverse-status-warning</code> property is used to provide appropriate text color against the status background.
+      </code>.
+      This will change the the color wherever you use the status class, that is, in status-warning-outline (borders),
+      status-warning-bg (bacground), and status-warning (text) classes. The inverse
+      <code>--color-inverse-status-warning</code> property is used to provide appropriate text color against the status
+      background.
     </p>
 
     <h3 class="heading list-heading">Position Classes</h3>
@@ -209,7 +215,7 @@
     <p>Developed by Harshna Haswani</p>
   </footer>
 
-  <script src="../../scripts/site-nav-side.js"></script> 
+  <script src="../../scripts/site-nav-side.js"></script>
 </body>
 
 </html>

@@ -34,6 +34,11 @@
 }
 
 .modal-stacked .modal-actions{
-  flex-direction: column;
+  display: flex;
+  flex-flow: column wrap;
   align-items: flex-end;
+}
+
+.modal-stacked .btn {
+  min-width: clamp(8rem, 12rem, 100%);
 }

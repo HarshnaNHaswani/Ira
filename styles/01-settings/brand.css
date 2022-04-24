@@ -46,3 +46,16 @@
 .outline-default {
   border: 2px solid var(--color-background);
 }
+
+.text-primary {
+  color: var(--color-primary);
+}
+.text-secondary {
+  color: var(--color-secondary);
+}
+.text-default {
+  color: var(--color-text);
+}
+.text-accent {
+  color: var(--color-accent);
+}

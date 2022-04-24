@@ -28,7 +28,6 @@
 .list >.list-item {
   padding-left: var(--list-item-bullet-space);
   margin: 1ch;
-  text-transform: capitalize;
 }
 
 .heading.list-heading {

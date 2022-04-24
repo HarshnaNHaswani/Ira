@@ -102,19 +102,21 @@
 
 
   <main class="main-content padding-x-xl">
-    
-<button class="btn btn-link bg-accent"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/05-objects/alert.css">Install Alert file</a></button>
-<h3 class="heading heading-xs list-heading">Additonal Installations</h3>
-<ul class="list">
-<li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/04-elements/elements.css">Base Element</a></li>
-<li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/99-trumps/status.css">Status classes</a></li>
-</ul>
+    <h2>Installation Link</h2>
+    <p>Copy the following to the <code>&lt;head></code>of your HTML</p>
+    <div class="stylesheet-code bg-primary"> 
+      <code>
+        &lt;link rel="stylesheet" href="https://design-with-ira.netlify.app/installationLinks/alert.css">
+      </code>
+    </div>
 
 
-    <p class="site-docs">Alerts are used to display short, important message to the user. To implement this functionality, add the <span class="highlight">alert</span> class to your <code>&lt;p></code> tag</p>
+    <p class="site-docs">Alerts are used to display short, important message to the user. To implement this
+      functionality, add the <span class="highlight">alert</span> class to your <code>&lt;p></code> tag</p>
 
-    <h2  class="site-docs">Standard Alerts</h2>
-    <p  class="site-docs">Based on the purpose 0f the alert, a second class is to be added to the tag. This class adds background color to the alert.</p>
+    <h2 class="site-docs">Standard Alerts</h2>
+    <p class="site-docs">Based on the purpose 0f the alert, a second class is to be added to the tag. This class adds
+      background color to the alert.</p>
 
     <h3 class="heading list-heading">Status Classes for background</h3>
     <ul class="list list-bulleted">
@@ -125,14 +127,17 @@
       <li class="list-item"><code>status-success-bg</code></li>
     </ul>
 
-    <p  class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
+    <p class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
       <code>
         :root {
-          --color-status-success: &lt;color>;
-          --color-inverse-status-success: &lt;color>;
+        --color-status-success: &lt;color>;
+        --color-inverse-status-success: &lt;color>;
         }
-      </code>. 
-      This will change the the color wherever you use the status class, that is, in  status-warning-outline (borders), status-warning-bg (bacground), and status-warning (text) classes. The inverse <code>--color-inverse-status-warning</code> property is used to provide appropriate text color against the status background.
+      </code>.
+      This will change the the color wherever you use the status class, that is, in status-warning-outline (borders),
+      status-warning-bg (bacground), and status-warning (text) classes. The inverse
+      <code>--color-inverse-status-warning</code> property is used to provide appropriate text color against the status
+      background.
     </p>
     <div>
       <p class=" alert status-plain-bg "> Thanks for visiting!</p>
@@ -144,8 +149,8 @@
 
     <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/620f519814fadf0015661db4" frameborder="0"></iframe>
 
-    <h2  class="site-docs">Outline Alerts</h2>
-    <p  class="site-docs">The outline class is an alternative to the background class.</p>
+    <h2 class="site-docs">Outline Alerts</h2>
+    <p class="site-docs">The outline class is an alternative to the background class.</p>
 
     <h3 class="heading list-heading">Status Classes for Outline</h3>
     <ul class="list list-bulleted">
@@ -164,7 +169,7 @@
       <p class=" alert status-success-outline">Download successful!</p>
     </div>
 
-    <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/620f521514fadf0015661db6"  frameborder="0"></iframe>
+    <iframe loading="lazy" src="https://www.thiscodeworks.com/embed/620f521514fadf0015661db6" frameborder="0"></iframe>
   </main>
 
 
@@ -172,7 +177,7 @@
   <footer>
     <p>Developed by Harshna Haswani</p>
   </footer>
-  <script src="../../scripts/site-nav-side.js"></script> 
+  <script src="../../scripts/site-nav-side.js"></script>
 </body>
 
 </html>
