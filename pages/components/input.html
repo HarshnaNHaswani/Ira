@@ -100,22 +100,28 @@
   <header>
     <h1 clss="page-title">input</h1>
   </header>
-    <main class="main-content padding-x-xl">
-      <button class="btn btn-link bg-accent"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/05-objects/input.css">Install Input file</a></button>
-      <h3 class="heading heading-xs list-heading">Additonal Installations</h3>
-      <ul class="list">
-      <li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/04-elements/elements.css">Base Element</a></li>
-      <li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/99-trumps/status.css">Status Classes</a></li>
-      <li class="list-item"><a class="text text-md" href="./button.html">Button Installations</a></li>
+  <main class="main-content padding-x-xl">
+    <h2>Installation Link</h2>
+    <p>Copy the following to the <code>&lt;head></code>of your HTML</p>
+    <div class="stylesheet-code bg-primary">
+      <code>
+        &lt;link rel="stylesheet" href="https://design-with-ira.netlify.app/installationLinks/input.css">
+      </code>
+    </div>
 
 
-     <p class="site-docs">Inputs are used to display get data from the user. To implement this functionality, wrap the input element. On the wrapper, add the <span class="highlight">form-item</span> class. To the <code>&lt;input type="text"></code> tag, give the class <span class="highlight">form-input</span>.</p>
-    <p class="status-info-bg site-docs">Note: Add the <span class="underline">form-input</span> class only to text inputs and not to radio buttons, checkboxes, range slider etc.</p>
+    <p class="site-docs">Inputs are used to display get data from the user. To implement this functionality, wrap the
+      input element. On the wrapper, add the <span class="highlight">form-item</span> class. To the <code>&lt;input
+        type="text"></code> tag, give the class <span class="highlight">form-input</span>.</p>
+    <p class="status-info-bg site-docs">Note: Add the <span class="underline">form-input</span> class only to text
+      inputs and not to radio buttons, checkboxes, range slider etc.</p>
 
     <h2 class="site-docs">Additional Classes</h2>
-    <p class="site-docs">All the form-items (wrappers) can be wrapped inside a  <code>&lt;form></code> tag, and this form tag can contain the class <span class="highlight">form</span></p>
+    <p class="site-docs">All the form-items (wrappers) can be wrapped inside a <code>&lt;form></code> tag, and this form
+      tag can contain the class <span class="highlight">form</span></p>
     <h3 class="heading list-heading site-docs">Status Classes for Wrapper</h3>
-    <p  class="site-docs">These classes are used to change the color of the bottom border. This can be used for input validation. By default, the color of the status is status-plain-outline. </p>
+    <p class="site-docs">These classes are used to change the color of the bottom border. This can be used for input
+      validation. By default, the color of the status is status-plain-outline. </p>
     <ul class="list list-bulleted">
       <li class="list-item"><code>status-plain-outline</code></li>
       <li class="list-item"><code>status-info-outline</code></li>
@@ -123,14 +129,17 @@
       <li class="list-item"><code>status-error-outline</code></li>
       <li class="list-item"><code>status-success-outline</code></li>
     </ul>
-    <p  class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
+    <p class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
       <code>
         :root {
-          --color-status-success: &lt;color>;
-          --color-inverse-status-success: &lt;color>;
+        --color-status-success: &lt;color>;
+        --color-inverse-status-success: &lt;color>;
         }
-      </code>. 
-      This will change the the color wherever you use the status class, that is, in status-warning-outline (borders), status-warning-bg (bacground), and status-warning (text) classes. The inverse <code>--color-inverse-status-warning</code> property is used to provide appropriate text color against the status background.
+      </code>.
+      This will change the the color wherever you use the status class, that is, in status-warning-outline (borders),
+      status-warning-bg (bacground), and status-warning (text) classes. The inverse
+      <code>--color-inverse-status-warning</code> property is used to provide appropriate text color against the status
+      background.
     </p>
 
 
@@ -199,7 +208,7 @@
     <p>Developed by Harshna Haswani</p>
   </footer>
 
-  <script src="../../scripts/site-nav-side.js"></script> 
+  <script src="../../scripts/site-nav-side.js"></script>
 </body>
 
 </html>

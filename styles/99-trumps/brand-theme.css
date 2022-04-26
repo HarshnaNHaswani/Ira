@@ -56,3 +56,31 @@ h4.site-docs {
   padding: 0.5em;
   font-size: 1.2em;
 }
+
+.installation .list-item {
+  margin: 2rem;
+}
+.installation .list-item code{
+  color: var(--color-secondary);
+}
+.installation .list-item strong{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 0.1ch;
+  text-transform: uppercase;
+}
+
+.installation .main-content {
+  /* width: fit-content; */
+  width: 80vw;
+}
+.installation .main-content p,
+.installation .main-content code{
+  word-wrap: break-word;
+  hyphens: none;
+  font-size: .9em;
+  width: fit-content;
+}
+.stylesheet-code {
+  margin: 2rem;
+  padding: 1rem;
+}

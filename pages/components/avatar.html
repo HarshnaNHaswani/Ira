@@ -104,19 +104,20 @@
 
 
   <main class="main-content padding-x-xl">
-<button class="btn btn-link bg-accent"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/05-objects/avatar.css">Install Avatar file</a></button>
+    <h2>Installation Link</h2>
+    <p>Copy the following to the <code>&lt;head></code>of your HTML</p>
+    <div class="stylesheet-code bg-primary">
+      <code>
+        &lt;link rel="stylesheet" href="https://design-with-ira.netlify.app/installationLinks/avatar.css">
+      </code>
+    </div>
 
-<h3 class="heading heading-xs list-heading">Additonal Installations</h3>
-<ul class="list">
-<li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/04-elements/elements.css">Base Element</a></li>
-<li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/99-trumps/status.css">Status classes</a></li>
-<li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/99-trumps/utils.css">Utils</a></li>
-</ul>
+    <p class="site-docs">Avatars are used to represent users in a virtual community. They can be the user's picture or
+      graphical illustrations. To implement this functionality, add the <span class="highlight">avatar</span> class to
+      the <code>&lt;img></code> tag</p>
 
-    <p class="site-docs">Avatars are used to represent users in a virtual community. They can be the user's picture or graphical illustrations. To implement this functionality, add the <span class="highlight">avatar</span> class to the <code>&lt;img></code> tag</p>
-
-    <h2  class="site-docs">Additional Classes</h2>
-    <p  class="site-docs"><code>round</code> class is used in the below example to make the avatars round.</p>
+    <h2 class="site-docs">Additional Classes</h2>
+    <p class="site-docs"><code>round</code> class is used in the below example to make the avatars round.</p>
 
 
     <h3 class="heading list-heading">Size Classes for Avatar</h3>
@@ -128,7 +129,7 @@
     </ul>
 
     <h3 class="heading list-heading">Status Classes for Avatar</h3>
-    <p  class="site-docs">These classes add a border to the avatars, indicating availability</p>
+    <p class="site-docs">These classes add a border to the avatars, indicating availability</p>
     <ul class="list list-bulleted">
       <li class="list-item"><code>status-available</code></li>
       <li class="list-item"><code>status-busy</code></li>
@@ -137,14 +138,16 @@
       <li class="list-item"><code>status-inactive</code></li>
     </ul>
 
-    <p  class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
+    <p class="site-docs">To adjust the color of any of the above status classes, in your stylesheet do
       <code>
         :root {
-          --color-status-inactive: &lt;color>;
-          --color-inverse-status-inactive: &lt;color>;
+        --color-status-inactive: &lt;color>;
+        --color-inverse-status-inactive: &lt;color>;
         }
-      </code>. 
-      This will change the the color wherever you use the status class - status-inactive-outline (borders), status-inactive-bg (bacground), status-inactive (text). The inverse <code>--color-inverse-status-inactive</code> property is used to provide appropriate text color against the status background.
+      </code>.
+      This will change the the color wherever you use the status class - status-inactive-outline (borders),
+      status-inactive-bg (bacground), status-inactive (text). The inverse <code>--color-inverse-status-inactive</code>
+      property is used to provide appropriate text color against the status background.
     </p>
 
     <div>
@@ -173,7 +176,7 @@
     <p>Developed by Harshna Haswani</p>
   </footer>
 
-  <script src="../../scripts/site-nav-side.js"></script> 
+  <script src="../../scripts/site-nav-side.js"></script>
 </body>
 
 </html>

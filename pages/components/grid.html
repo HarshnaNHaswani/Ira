@@ -104,18 +104,24 @@
 
 
   <main class="main-content padding-x-xl">
-    <button class="btn btn-link bg-accent"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/06-components/grid.css">Install Grid file</a></button>
-    <h3 class="heading heading-xs list-heading">Additonal Installations</h3>
-    <ul class="list">
-    <li class="list-item"><a class="text text-md" href="https://design-with-ira.netlify.app/styles/04-elements/elements.css">Base Element</a></li>
-    <li class="list-item"><a class="text text-md" href="./image.html">see also: image</a></li>
-    <li class="list-item"><a class="text text-md" href="./card.html">see also: cards</a></li>
+    <h2>Installation Link</h2>
+    <p>Copy the following to the <code>&lt;head></code>of your HTML</p>
+    <div class="stylesheet-code bg-primary">
+      <code>
+        &lt;link rel="stylesheet" href="https://design-with-ira.netlify.app/installationLinks/grid.css">
+      </code>
+    </div>
 
 
-    <p class="site-docs">Grid component is used to create a matrix of elements. Ira provides two basic column layouts for grid - grid foe two columns and grid for 3 columns. To implement this, add the <code class="highlight">grid-container</code> class to the wrapper. To each child, give the <code class="highlight">grid-child</code> class. Wrappers can be &lt;div> or &lt;section> elements. Child elements can be images, cards, etc.</p>
-    <p class="site-docs">To make a two column grid layout add the class <code>grid-col2</code> to the wrapper. Similarly, to make a three column grid layout add the class <code>grid-col3</code> to the wrapper.</p>
+    <p class="site-docs">Grid component is used to create a matrix of elements. Ira provides two basic column layouts
+      for grid - grid foe two columns and grid for 3 columns. To implement this, add the <code
+        class="highlight">grid-container</code> class to the wrapper. To each child, give the <code
+        class="highlight">grid-child</code> class. Wrappers can be &lt;div> or &lt;section> elements. Child elements can
+      be images, cards, etc.</p>
+    <p class="site-docs">To make a two column grid layout add the class <code>grid-col2</code> to the wrapper.
+      Similarly, to make a three column grid layout add the class <code>grid-col3</code> to the wrapper.</p>
 
-    <span class="site-docs status-info-bg"><em>Note: Borders are used only for dislay purpose</em></span> 
+    <span class="site-docs status-info-bg"><em>Note: Borders are used only for dislay purpose</em></span>
     <section class="grid-demo grid-container grid-cols2">
       <p class="grid-child">This is child 1</p>
       <p class="grid-child">This is child 2</p>
@@ -130,7 +136,8 @@
       <img src="https://picsum.photos/100" alt="grid-demo" class="grid-child">
     </section>
 
-    <iframe class="iframe-small" loading="lazy" src="https://www.thiscodeworks.com/embed/620fda3a14fadf0015661e1d" frameborder="0"></iframe>
+    <iframe class="iframe-small" loading="lazy" src="https://www.thiscodeworks.com/embed/620fda3a14fadf0015661e1d"
+      frameborder="0"></iframe>
 
     <section class="grid-demo grid-container grid-cols3">
       <p class="grid-child">This is child 1</p>
@@ -146,7 +153,8 @@
       <img src="https://picsum.photos/100" alt="grid-demo" class="grid-child">
     </section>
 
-    <iframe class="iframe-small" loading="lazy" src="https://www.thiscodeworks.com/embed/620fdad414fadf0015661e21" frameborder="0"></iframe>
+    <iframe class="iframe-small" loading="lazy" src="https://www.thiscodeworks.com/embed/620fdad414fadf0015661e21"
+      frameborder="0"></iframe>
 
     <p class="site-docs">In addition to the basic grid layouts, Ira provides two more grid layouts.</p>
 
@@ -155,9 +163,14 @@
       <li class="list-item"><code>grid-fit</code></li>
       <li class="list-item"><code>grid-fill</code></li>
     </ul>
-    <p class="site-docs">Use the above classes in the wrapper, in place of <code>grid-cols2</code> or <code>grid-cols3</code>.  </p>
-    <p class="site-docs"><code>grid-fit</code> and <code>grid-fill</code>fits as many children of specified size in one row of grid container. The difference between them is that <code class="hightlight">grid-fit</code> tries to maintain the gap in the columns as long as possible. If there are more children, it collapses its column gap and tries to fit the new children</p>
-    <p class="site-docs"><code class="hightlight">grid-fill</code> has no consideration for the column gaps, it removes the gap at the start and leaves empty spaces at the end of the row</p>
+    <p class="site-docs">Use the above classes in the wrapper, in place of <code>grid-cols2</code> or
+      <code>grid-cols3</code>. </p>
+    <p class="site-docs"><code>grid-fit</code> and <code>grid-fill</code>fits as many children of specified size in one
+      row of grid container. The difference between them is that <code class="hightlight">grid-fit</code> tries to
+      maintain the gap in the columns as long as possible. If there are more children, it collapses its column gap and
+      tries to fit the new children</p>
+    <p class="site-docs"><code class="hightlight">grid-fill</code> has no consideration for the column gaps, it removes
+      the gap at the start and leaves empty spaces at the end of the row</p>
 
     <h4 class="site-docs uppercase">grid-fit with less number of children</h4>
     <section class="grid-container grid-fit">
@@ -214,7 +227,7 @@
           
           }
         </code>
-      </pre>  
+      </pre>
     </p>
   </main>
 
@@ -224,7 +237,7 @@
     <p>Developed by Harshna Haswani</p>
   </footer>
 
-  <script src="../../scripts/site-nav-side.js"></script> 
+  <script src="../../scripts/site-nav-side.js"></script>
 </body>
 
 </html>
