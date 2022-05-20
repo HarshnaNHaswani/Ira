@@ -9,8 +9,9 @@
   border-radius: 5px;
 }
 
-.nav .list-inline {
+.nav .list-inline {  
   align-items: center;
+  flex-flow: row wrap;
   margin: 0;
   margin-left: auto;
 }
