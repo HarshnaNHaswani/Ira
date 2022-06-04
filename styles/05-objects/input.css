@@ -89,7 +89,7 @@
 
 .form-item input[type="radio"],
 .form-item input[type="checkbox"] {
-  accent-color: var(--color-form-text);
+  accent-color: var(--color-radio-checkbox);
   cursor: pointer;
   width: clamp(1.5ch, 2ch, 3.5ch);
   margin-left: 5ch;
