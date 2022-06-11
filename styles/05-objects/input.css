@@ -96,13 +96,13 @@
 }
 
 .form-item legend,
-.form-item>label,
+.form-item > label,
 .form-item p,
 .form-item::placeholder {
   opacity: 0.55;
 }
 
-.form-item input[type=range] {
+.form-item input[type="range"] {
   appearance: none;
   outline: none;
   cursor: pointer;
@@ -111,47 +111,47 @@
   position: relative;
 }
 
-.form-item input[type=range]::before,
-.form-item input[type=range]::after {
+.form-item input[type="range"]::before,
+.form-item input[type="range"]::after {
   display: inline-block;
   position: absolute;
   color: var(--color-slider-text);
 }
 
-.form-item input[type=range]::before {
+.form-item input[type="range"]::before {
   content: attr(min);
   left: 0;
-  transform: translate(calc(-100% - 5px))
+  transform: translate(calc(-100% - 5px));
 }
 
-.form-item input[type=range]::after {
+.form-item input[type="range"]::after {
   content: attr(max);
   right: 0;
-  transform: translate(calc(100% + 5px))
+  transform: translate(calc(100% + 5px));
 }
 
-.form-item input[type=range]::-moz-range-track {
+.form-item input[type="range"]::-moz-range-track {
   background: var(--color-slider-track);
   border-radius: 3px;
   height: 5px;
   -moz-appearance: none;
 }
 
-.form-item input[type=range]::-ms-track {
+.form-item input[type="range"]::-ms-track {
   background: var(--color-slider-track);
   border-radius: 3px;
   height: 5px;
   -ms-progress-appearance: none;
 }
 
-.form-item input[type=range]::-webkit-slider-runnable-track {
+.form-item input[type="range"]::-webkit-slider-runnable-track {
   background: var(--color-slider-track);
   border-radius: 3px;
   height: 5px;
   -webkit-appearance: none;
 }
 
-.form-item input[type=range]::-moz-range-thumb {
+.form-item input[type="range"]::-moz-range-thumb {
   border: none;
   box-shadow: none;
   height: 1.25rem;
@@ -163,7 +163,7 @@
   -moz-appearance: none;
 }
 
-.form-item input[type=range]::-ms-thumb {
+.form-item input[type="range"]::-ms-thumb {
   border: none;
   box-shadow: none;
   height: 1.25rem;
@@ -175,7 +175,7 @@
   -ms-progress-appearance: none;
 }
 
-.form-item input[type=range]::-webkit-slider-thumb {
+.form-item input[type="range"]::-webkit-slider-thumb {
   border: none;
   box-shadow: none;
   height: 1.25rem;
@@ -193,7 +193,6 @@
   color: var(--color-form-text);
 }
 
-
 .form-item legend,
 .form-item label {
   text-transform: uppercase;
@@ -201,11 +200,12 @@
   font-size: 0.8em;
   font-weight: 300;
 }
-
+.form-item .list-item,
 .form-item p {
   margin: 1ch 5ch;
   font-size: 0.8em;
   display: grid;
   letter-spacing: 1.2px;
   grid-template-columns: repeat(2, 1fr);
+  place-items: center;
 }
