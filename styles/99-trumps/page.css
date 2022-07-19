@@ -7,8 +7,8 @@
 }
 
 .main-content {
-  min-width: 60ch;
-  max-width: 80ch;
+  min-width: clamp(15ch, 60ch, 80vw);
+  max-width: clamp(30ch, 80ch, 80vw);
 }
 
 .nav-side {

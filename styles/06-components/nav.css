@@ -1,5 +1,6 @@
 :root {
-  --width-nav-scrolling :40vw 
+  --width-nav-scrolling: 60vw;
+  --width-nav-site: 100vw;
 }
 
 .nav {
@@ -9,20 +10,26 @@
   border-radius: 5px;
 }
 
-.nav .list-inline {  
+.nav .list-inline {
   align-items: center;
-  flex-flow: row wrap;
   margin: 0;
   margin-left: auto;
 }
 
-.nav-site{
+.nav-site {
   margin-bottom: 4rem;
+  max-width: var(--width-nav-site);
 }
 
 .nav-scrolling {
   max-width: var(--width-nav-scrolling);
-  overflow-x: scroll;
+  overflow-x: auto;
 }
-
-
+.nav-site,
+.nav-site .list-inline {
+  flex-flow: row wrap;
+}
+.nav-scrolling,
+.nav-scrolling .list-inline {
+  flex-flow: row nowrap;
+}

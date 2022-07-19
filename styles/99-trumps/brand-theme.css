@@ -5,10 +5,10 @@ body {
 }
 
 .nav-main {
-  color: var(--color-background)
+  color: var(--color-background);
 }
 
-.heading ,
+.heading,
 .text {
   line-height: 1.75em;
   text-align: center;
@@ -21,7 +21,7 @@ body {
 }
 
 .grid-demo,
-.grid-demo .grid-child{
+.grid-demo .grid-child {
   border: 1px solid black;
 }
 
@@ -29,11 +29,11 @@ body {
   height: 100vh;
 }
 
-.img-display img{
+.img-display img {
   margin: 2ch;
 }
 
-p.site-docs{
+p.site-docs {
   margin: 1ch 0;
 }
 
@@ -60,11 +60,11 @@ h4.site-docs {
 .installation .list-item {
   margin: 2rem;
 }
-.installation .list-item code{
+.installation .list-item code {
   color: var(--color-secondary);
 }
-.installation .list-item strong{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.installation .list-item strong {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   letter-spacing: 0.1ch;
   text-transform: uppercase;
 }
@@ -74,13 +74,15 @@ h4.site-docs {
   width: 80vw;
 }
 .installation .main-content p,
-.installation .main-content code{
+.installation .main-content code {
   word-wrap: break-word;
   hyphens: none;
-  font-size: .9em;
+  font-size: 0.9em;
   width: fit-content;
 }
 .stylesheet-code {
   margin: 2rem;
   padding: 1rem;
+  max-width: 100%;
+  overflow-x: auto;
 }
