@@ -1,0 +1,20 @@
+* {
+  scrollbar-width: 2px;
+  scroll-behavior: smooth;
+  scrollbar-color: var(--color-secondary-inverse) var(--color-secondary);
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--color-secondary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-secondary-inverse);
+  border-radius: 2rem;
+  border:  1px solid var(--color-secondary);
+}
