@@ -1,4 +1,4 @@
-@import url(https://design-with-ira.netlify.app/styles/01-settings/brand.css);
-@import url(https://design-with-ira.netlify.app/styles/03-generic/destyle.css);
-@import url(https://design-with-ira.netlify.app/styles/05-objects/button.css);
-@import url(https://design-with-ira.netlify.app/styles/06-components/modal.css);
+@import url(../styles/01-settings/brand.css);
+@import url(../styles/03-generic/destyle.css);
+@import url(../styles/05-objects/button.css);
+@import url(../styles/06-components/modal.css);
